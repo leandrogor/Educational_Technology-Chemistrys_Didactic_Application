@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TED_TP3.Varios;
 
 namespace TED_TP3
 {
@@ -19,8 +20,10 @@ namespace TED_TP3
 
         private void btnAjustes_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("( Work in progress )", " -> Ventana de ajutes",
-                MessageBoxButtons.OK,MessageBoxIcon.Information);
+            //messagebox.show("( work in progress )", " -> ventana de ajutes",
+            //    messageboxbuttons.ok,messageboxicon.information);
+            Ajustes ventana = new Ajustes();
+            ventana.ShowDialog();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

@@ -42,10 +42,10 @@
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 40F);
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.lblTitulo.Location = new System.Drawing.Point(61, 27);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(459, 81);
+            this.lblTitulo.Size = new System.Drawing.Size(478, 63);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "A TODO QUÍMICA";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -53,10 +53,10 @@
             // lblBienvenida
             // 
             this.lblBienvenida.AutoSize = true;
-            this.lblBienvenida.Font = new System.Drawing.Font("Bahnschrift SemiLight SemiConde", 26F);
+            this.lblBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F);
             this.lblBienvenida.Location = new System.Drawing.Point(574, 118);
             this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(288, 53);
+            this.lblBienvenida.Size = new System.Drawing.Size(289, 39);
             this.lblBienvenida.TabIndex = 2;
             this.lblBienvenida.Text = "¡¡¡BIENVENIDO!!!";
             this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -88,7 +88,7 @@
             // button1
             // 
             this.button1.AutoSize = true;
-            this.button1.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(349, 436);
             this.button1.Name = "button1";
@@ -101,7 +101,7 @@
             // button2
             // 
             this.button2.AutoSize = true;
-            this.button2.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(553, 436);
             this.button2.Name = "button2";
@@ -137,7 +137,7 @@
             this.Controls.Add(this.btnAjustes);
             this.Controls.Add(this.lblBienvenida);
             this.Controls.Add(this.lblTitulo);
-            this.Font = new System.Drawing.Font("Bahnschrift SemiLight Condensed", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
