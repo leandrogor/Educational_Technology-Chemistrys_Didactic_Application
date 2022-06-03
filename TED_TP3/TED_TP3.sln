@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TED_TP3", "TED_TP3.csproj", "{7F1D905F-B7B6-4187-8F29-768F6149F3BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F1D905F-B7B6-4187-8F29-768F6149F3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1D905F-B7B6-4187-8F29-768F6149F3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1D905F-B7B6-4187-8F29-768F6149F3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1D905F-B7B6-4187-8F29-768F6149F3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F879C8B-211C-486B-A084-7403F0DABF6C}
+	EndGlobalSection
+EndGlobal
