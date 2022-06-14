@@ -46,6 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actividades\MainActividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\MainActividades.Designer.cs">
+      <DependentUpon>MainActividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Jugador.cs" />
+    <Compile Include="Login\LoginCrear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\LoginCrear.Designer.cs">
+      <DependentUpon>LoginCrear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginJugar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\LoginJugar.Designer.cs">
+      <DependentUpon>LoginJugar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +79,15 @@
     <Compile Include="Varios\Ajustes.Designer.cs">
       <DependentUpon>Ajustes.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Actividades\MainActividades.resx">
+      <DependentUpon>MainActividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\LoginCrear.resx">
+      <DependentUpon>LoginCrear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\LoginJugar.resx">
+      <DependentUpon>LoginJugar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,9 +129,6 @@
   <ItemGroup>
     <None Include="Resources\Salir.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Actividades\" />
-    <Folder Include="Login\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

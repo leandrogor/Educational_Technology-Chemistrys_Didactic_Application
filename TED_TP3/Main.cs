@@ -35,5 +35,11 @@ namespace TED_TP3
                 Close();                
             }           
         }
+
+        private void btnJugar_Click(object sender, EventArgs e)
+        {
+            LoginJugar ventana = new LoginJugar();
+            ventana.ShowDialog();
+        }
     }
 }

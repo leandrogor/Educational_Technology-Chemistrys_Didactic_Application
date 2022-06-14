@@ -33,8 +33,8 @@
             this.lblBienvenida = new System.Windows.Forms.Label();
             this.btnAjustes = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnJugar = new System.Windows.Forms.Button();
+            this.btnCrear = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -85,31 +85,32 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // btnJugar
             // 
-            this.button1.AutoSize = true;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(349, 436);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 44);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Jugar";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnJugar.AutoSize = true;
+            this.btnJugar.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.btnJugar.ForeColor = System.Drawing.Color.Black;
+            this.btnJugar.Location = new System.Drawing.Point(349, 436);
+            this.btnJugar.Name = "btnJugar";
+            this.btnJugar.Size = new System.Drawing.Size(116, 44);
+            this.btnJugar.TabIndex = 5;
+            this.btnJugar.Text = "Jugar";
+            this.btnJugar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnJugar.UseVisualStyleBackColor = true;
+            this.btnJugar.Click += new System.EventHandler(this.btnJugar_Click);
             // 
-            // button2
+            // btnCrear
             // 
-            this.button2.AutoSize = true;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(553, 436);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 44);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Crear";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCrear.AutoSize = true;
+            this.btnCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.btnCrear.ForeColor = System.Drawing.Color.Black;
+            this.btnCrear.Location = new System.Drawing.Point(553, 436);
+            this.btnCrear.Name = "btnCrear";
+            this.btnCrear.Size = new System.Drawing.Size(116, 44);
+            this.btnCrear.TabIndex = 6;
+            this.btnCrear.Text = "Crear";
+            this.btnCrear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCrear.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
@@ -131,8 +132,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1006, 529);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCrear);
+            this.Controls.Add(this.btnJugar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAjustes);
             this.Controls.Add(this.lblBienvenida);
@@ -159,8 +160,8 @@
         private System.Windows.Forms.Label lblBienvenida;
         private System.Windows.Forms.Button btnAjustes;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnJugar;
+        private System.Windows.Forms.Button btnCrear;
         private System.Windows.Forms.Button btnSalir;
     }
 }
