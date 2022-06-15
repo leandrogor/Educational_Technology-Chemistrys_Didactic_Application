@@ -45,7 +45,7 @@
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.lblTitulo.Location = new System.Drawing.Point(61, 27);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(478, 63);
+            this.lblTitulo.Size = new System.Drawing.Size(593, 76);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "A TODO QUÍMICA";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -56,7 +56,7 @@
             this.lblBienvenida.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F);
             this.lblBienvenida.Location = new System.Drawing.Point(574, 118);
             this.lblBienvenida.Name = "lblBienvenida";
-            this.lblBienvenida.Size = new System.Drawing.Size(289, 39);
+            this.lblBienvenida.Size = new System.Drawing.Size(364, 52);
             this.lblBienvenida.TabIndex = 2;
             this.lblBienvenida.Text = "¡¡¡BIENVENIDO!!!";
             this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -90,10 +90,11 @@
             this.btnJugar.AutoSize = true;
             this.btnJugar.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.btnJugar.ForeColor = System.Drawing.Color.Black;
+            this.btnJugar.Image = global::TED_TP3.Properties.Resources.JugarNegro;
             this.btnJugar.Location = new System.Drawing.Point(349, 436);
             this.btnJugar.Name = "btnJugar";
-            this.btnJugar.Size = new System.Drawing.Size(116, 44);
-            this.btnJugar.TabIndex = 5;
+            this.btnJugar.Size = new System.Drawing.Size(124, 44);
+            this.btnJugar.TabIndex = 1;
             this.btnJugar.Text = "Jugar";
             this.btnJugar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnJugar.UseVisualStyleBackColor = true;
@@ -104,13 +105,15 @@
             this.btnCrear.AutoSize = true;
             this.btnCrear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.btnCrear.ForeColor = System.Drawing.Color.Black;
+            this.btnCrear.Image = global::TED_TP3.Properties.Resources.CrearNegro;
             this.btnCrear.Location = new System.Drawing.Point(553, 436);
             this.btnCrear.Name = "btnCrear";
-            this.btnCrear.Size = new System.Drawing.Size(116, 44);
-            this.btnCrear.TabIndex = 6;
+            this.btnCrear.Size = new System.Drawing.Size(123, 44);
+            this.btnCrear.TabIndex = 2;
             this.btnCrear.Text = "Crear";
             this.btnCrear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCrear.UseVisualStyleBackColor = true;
+            this.btnCrear.Click += new System.EventHandler(this.btnCrear_Click);
             // 
             // btnSalir
             // 

@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace TED_TP3.Login
 {
-    internal class Jugador
+    public class Jugador
     {
         public string nombre { get; set; }
-        public int nivelAlcanzado { get; set; } 
+        public int nivelAlcanzado { get; set; }
+
+        public Jugador(string nom, int nivel)
+        {
+            nombre = nom;
+            nivelAlcanzado = nivel;
+        }
     }
 }

@@ -52,6 +52,7 @@
     <Compile Include="Actividades\MainActividades.Designer.cs">
       <DependentUpon>MainActividades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login\Docente.cs" />
     <Compile Include="Login\Jugador.cs" />
     <Compile Include="Login\LoginCrear.cs">
       <SubType>Form</SubType>
@@ -79,6 +80,12 @@
     <Compile Include="Varios\Ajustes.Designer.cs">
       <DependentUpon>Ajustes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Varios\CrearSolicitudEjercicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Varios\CrearSolicitudEjercicio.Designer.cs">
+      <DependentUpon>CrearSolicitudEjercicio.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Actividades\MainActividades.resx">
       <DependentUpon>MainActividades.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +110,9 @@
     </Compile>
     <EmbeddedResource Include="Varios\Ajustes.resx">
       <DependentUpon>Ajustes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Varios\CrearSolicitudEjercicio.resx">
+      <DependentUpon>CrearSolicitudEjercicio.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -129,6 +139,29 @@
   <ItemGroup>
     <None Include="Resources\Salir.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\JugarNegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrearNegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JugarBlancoGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AjustesBlancoGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casaNegra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CrearBlancoGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IngresarNegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NuevoNegro.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

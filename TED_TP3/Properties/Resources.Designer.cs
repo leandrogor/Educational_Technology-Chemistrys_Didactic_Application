@@ -63,6 +63,16 @@ namespace TED_TP3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AjustesBlancoGrande {
+            get {
+                object obj = ResourceManager.GetObject("AjustesBlancoGrande", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AjustesNegro {
             get {
                 object obj = ResourceManager.GetObject("AjustesNegro", resourceCulture);
@@ -73,9 +83,79 @@ namespace TED_TP3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap casaNegra {
+            get {
+                object obj = ResourceManager.GetObject("casaNegra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CrearBlancoGrande {
+            get {
+                object obj = ResourceManager.GetObject("CrearBlancoGrande", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CrearNegro {
+            get {
+                object obj = ResourceManager.GetObject("CrearNegro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FotoBienvenida {
             get {
                 object obj = ResourceManager.GetObject("FotoBienvenida", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IngresarNegro {
+            get {
+                object obj = ResourceManager.GetObject("IngresarNegro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JugarBlancoGrande {
+            get {
+                object obj = ResourceManager.GetObject("JugarBlancoGrande", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JugarNegro {
+            get {
+                object obj = ResourceManager.GetObject("JugarNegro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NuevoNegro {
+            get {
+                object obj = ResourceManager.GetObject("NuevoNegro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
