@@ -15,9 +15,11 @@ namespace TED_TP3
 {
     public partial class LoginCrear : Form
     {
-        public LoginCrear()
+        private Main main;
+        public LoginCrear(Main main)
         {
             InitializeComponent();
+            this.main = main;
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
@@ -53,7 +55,7 @@ namespace TED_TP3
                                 existente = true;
                                 leer.Close();
                                 
-                                CrearSolicitudEjercicio ventana = new CrearSolicitudEjercicio(doc);
+                                CrearSolicitudEjercicio ventana = new CrearSolicitudEjercicio(doc, main, this);
                                 ventana.Show();
                                 ventana.FormClosed += LogOut;
                                 Hide();

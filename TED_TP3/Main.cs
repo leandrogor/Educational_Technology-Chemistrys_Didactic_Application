@@ -56,7 +56,7 @@ namespace TED_TP3
 
         private void btnCrear_Click(object sender, EventArgs e)
         {
-            LoginCrear ventana = new LoginCrear();
+            LoginCrear ventana = new LoginCrear(this);
             ventana.Show();
             ventana.FormClosed += LogOut;
             Hide();
