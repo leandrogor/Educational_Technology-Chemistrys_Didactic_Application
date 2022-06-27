@@ -7,16 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TED_TP3.Login;
 
 namespace TED_TP3.Actividades
 {
-    public partial class MainActividades : Form
+    public partial class Set1 : Form
     {
-        public MainActividades(Jugador jug)
+        public Set1()
         {
             InitializeComponent();
-            lblIngresado.Text = "Usuario: " + jug.nombre + ". Puntaje alcanzado: " + jug.nivelAlcanzado + "."; 
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -24,9 +22,9 @@ namespace TED_TP3.Actividades
             Close();
         }
 
-        private void btnSet1_Click(object sender, EventArgs e)
+        private void btnAct1_Click(object sender, EventArgs e)
         {
-            Set1 ventana = new Set1();
+            Set1Act1 ventana = new Set1Act1();
             ventana.ShowDialog();
         }
     }

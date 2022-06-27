@@ -52,6 +52,18 @@
     <Compile Include="Actividades\MainActividades.Designer.cs">
       <DependentUpon>MainActividades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Actividades\Set1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Set1.Designer.cs">
+      <DependentUpon>Set1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\Set1Act1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Set1Act1.Designer.cs">
+      <DependentUpon>Set1Act1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login\Docente.cs" />
     <Compile Include="Login\Jugador.cs" />
     <Compile Include="Login\LoginCrear.cs">
@@ -88,6 +100,12 @@
     </Compile>
     <EmbeddedResource Include="Actividades\MainActividades.resx">
       <DependentUpon>MainActividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Set1.resx">
+      <DependentUpon>Set1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Set1Act1.resx">
+      <DependentUpon>Set1Act1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\LoginCrear.resx">
       <DependentUpon>LoginCrear.cs</DependentUpon>
