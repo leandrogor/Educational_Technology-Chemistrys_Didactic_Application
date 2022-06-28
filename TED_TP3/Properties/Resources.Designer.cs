@@ -123,6 +123,16 @@ namespace TED_TP3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FlechasDerechaNegro {
+            get {
+                object obj = ResourceManager.GetObject("FlechasDerechaNegro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FotoBienvenida {
             get {
                 object obj = ResourceManager.GetObject("FotoBienvenida", resourceCulture);
@@ -187,6 +197,16 @@ namespace TED_TP3.Properties {
             get {
                 object obj = ResourceManager.GetObject("TodoQuimica", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VolverNegro {
+            get {
+                object obj = ResourceManager.GetObject("VolverNegro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

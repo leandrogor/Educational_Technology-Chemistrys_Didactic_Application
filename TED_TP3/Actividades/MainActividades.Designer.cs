@@ -65,7 +65,7 @@
             // 
             this.lblIngresado.AutoSize = true;
             this.lblIngresado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblIngresado.Location = new System.Drawing.Point(12, 416);
+            this.lblIngresado.Location = new System.Drawing.Point(12, 370);
             this.lblIngresado.Name = "lblIngresado";
             this.lblIngresado.Size = new System.Drawing.Size(234, 25);
             this.lblIngresado.TabIndex = 5;
@@ -77,7 +77,7 @@
             this.btnVolver.AutoSize = true;
             this.btnVolver.ForeColor = System.Drawing.Color.Black;
             this.btnVolver.Image = global::TED_TP3.Properties.Resources.casaNegra;
-            this.btnVolver.Location = new System.Drawing.Point(672, 394);
+            this.btnVolver.Location = new System.Drawing.Point(672, 348);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
             this.btnVolver.TabIndex = 6;
@@ -100,7 +100,7 @@
             // 
             this.btnSet1.AutoSize = true;
             this.btnSet1.ForeColor = System.Drawing.Color.Black;
-            this.btnSet1.Location = new System.Drawing.Point(101, 288);
+            this.btnSet1.Location = new System.Drawing.Point(101, 255);
             this.btnSet1.Name = "btnSet1";
             this.btnSet1.Size = new System.Drawing.Size(162, 44);
             this.btnSet1.TabIndex = 13;
@@ -113,7 +113,7 @@
             // 
             this.btnSet2.AutoSize = true;
             this.btnSet2.ForeColor = System.Drawing.Color.Black;
-            this.btnSet2.Location = new System.Drawing.Point(324, 288);
+            this.btnSet2.Location = new System.Drawing.Point(314, 255);
             this.btnSet2.Name = "btnSet2";
             this.btnSet2.Size = new System.Drawing.Size(162, 44);
             this.btnSet2.TabIndex = 14;
@@ -125,7 +125,7 @@
             // 
             this.btnSet3.AutoSize = true;
             this.btnSet3.ForeColor = System.Drawing.Color.Black;
-            this.btnSet3.Location = new System.Drawing.Point(528, 288);
+            this.btnSet3.Location = new System.Drawing.Point(528, 255);
             this.btnSet3.Name = "btnSet3";
             this.btnSet3.Size = new System.Drawing.Size(162, 44);
             this.btnSet3.TabIndex = 15;
@@ -138,7 +138,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 415);
             this.Controls.Add(this.btnSet3);
             this.Controls.Add(this.btnSet2);
             this.Controls.Add(this.btnSet1);

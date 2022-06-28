@@ -123,7 +123,7 @@
             this.btnSalir.Location = new System.Drawing.Point(878, 473);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(116, 44);
-            this.btnSalir.TabIndex = 0;
+            this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSalir.UseVisualStyleBackColor = true;

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actividades\Actividad.cs" />
     <Compile Include="Actividades\MainActividades.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +184,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\EnviarNegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VolverNegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlechasDerechaNegro.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

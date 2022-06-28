@@ -136,6 +136,9 @@
   <data name="EnviarNegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EnviarNegro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FlechasDerechaNegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FlechasDerechaNegro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FotoBienvenida" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FotoBienvenida.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -156,5 +159,8 @@
   </data>
   <data name="TodoQuimica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TodoQuimica.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VolverNegro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VolverNegro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
