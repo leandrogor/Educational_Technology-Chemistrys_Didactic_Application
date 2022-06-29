@@ -12,14 +12,17 @@ namespace TED_TP3.Actividades
 {
     public partial class Set1Act1 : Form
     {
+        private Set1 set1;
+        
         Random random = new Random();
 
         List<Actividad> activiades = new List<Actividad>();
         public Actividad actSeleccionada;
 
-        public Set1Act1()
+        public Set1Act1(Set1 set1)
         {
             InitializeComponent();
+            this.set1 = set1;
 
             lblCantCorr.Text = "0";
             cantErrores.Text = "0";
@@ -153,7 +156,9 @@ namespace TED_TP3.Actividades
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Work in progress...");
+            MessageBox.Show("Volviendo a set de actividades 1...");
+            set1.habilitarAct2();
+            Close();
         }
     }
 }

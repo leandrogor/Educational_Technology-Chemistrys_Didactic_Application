@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TED_TP3.Actividades
 {
-    public partial class Set1 : Form
+    public partial class Set2 : Form
     {
-        public Set1()
+        public Set2()
         {
             InitializeComponent();
         }
@@ -24,24 +24,12 @@ namespace TED_TP3.Actividades
 
         private void btnAct1_Click(object sender, EventArgs e)
         {
-            Set1Act1 ventana = new Set1Act1(this);
-            ventana.ShowDialog();
-        }
-
-        public void habilitarAct2()
-        {
-            btnAct2.Enabled = true;
+            MessageBox.Show("Work in progress...");
         }
 
         private void btnAct2_Click(object sender, EventArgs e)
         {
-            Set1Act2 ventana = new Set1Act2(this);
-            ventana.ShowDialog();
-        }
-
-        public void habilitarAct3()
-        {
-            btnAct3.Enabled = true;
+            MessageBox.Show("Work in progress...");
         }
 
         private void btnAct3_Click(object sender, EventArgs e)

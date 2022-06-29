@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Set1Act1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblPregunta = new System.Windows.Forms.Label();
@@ -52,6 +53,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.lblCantCorr = new System.Windows.Forms.Label();
             this.cantErrores = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDH)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nUDC)).BeginInit();
@@ -316,12 +318,24 @@
             this.cantErrores.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cantErrores.Visible = false;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label8.Location = new System.Drawing.Point(504, 78);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(129, 29);
+            this.label8.TabIndex = 40;
+            this.label8.Text = "Actividad 1";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Set1Act1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(829, 493);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.cantErrores);
             this.Controls.Add(this.lblCantCorr);
             this.Controls.Add(this.label7);
@@ -349,6 +363,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Set1Act1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -391,5 +406,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblCantCorr;
         private System.Windows.Forms.Label cantErrores;
+        private System.Windows.Forms.Label label8;
     }
 }

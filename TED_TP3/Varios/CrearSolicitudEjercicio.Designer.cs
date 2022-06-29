@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CrearSolicitudEjercicio));
             this.btnVolver = new System.Windows.Forms.Button();
             this.lblIngresado = new System.Windows.Forms.Label();
             this.lblBienvenida = new System.Windows.Forms.Label();
@@ -238,6 +239,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "CrearSolicitudEjercicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

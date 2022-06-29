@@ -29,5 +29,16 @@ namespace TED_TP3.Actividades
             Set1 ventana = new Set1();
             ventana.ShowDialog();
         }
+
+        private void btnSet2_Click(object sender, EventArgs e)
+        {
+            Set2 ventana = new Set2();
+            ventana.ShowDialog();
+        }
+
+        private void btnSet3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Work in progress...");
+        }
     }
 }

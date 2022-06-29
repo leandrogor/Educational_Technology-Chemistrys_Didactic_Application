@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainActividades));
             this.lblBienvenida = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblIngresado = new System.Windows.Forms.Label();
@@ -120,6 +121,7 @@
             this.btnSet2.Text = "Set de actividades 2";
             this.btnSet2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSet2.UseVisualStyleBackColor = true;
+            this.btnSet2.Click += new System.EventHandler(this.btnSet2_Click);
             // 
             // btnSet3
             // 
@@ -132,6 +134,7 @@
             this.btnSet3.Text = "Set de actividades 3";
             this.btnSet3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSet3.UseVisualStyleBackColor = true;
+            this.btnSet3.Click += new System.EventHandler(this.btnSet3_Click);
             // 
             // MainActividades
             // 
@@ -150,6 +153,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainActividades";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
