@@ -46,6 +46,17 @@ namespace TED_TP3.Actividades
 
         private void btnAct3_Click(object sender, EventArgs e)
         {
+            Set1Act3 ventana = new Set1Act3(this);
+            ventana.ShowDialog();
+        }
+
+        public void habilitarAct4()
+        {
+            btnAct4.Enabled = true;
+        }
+
+        private void btnAct4_Click(object sender, EventArgs e)
+        {
             MessageBox.Show("Work in progress...");
         }
     }

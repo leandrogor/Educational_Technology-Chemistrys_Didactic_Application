@@ -52,6 +52,7 @@
             this.btnAct4.Text = "Actividad 4";
             this.btnAct4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAct4.UseVisualStyleBackColor = true;
+            this.btnAct4.Click += new System.EventHandler(this.btnAct4_Click);
             // 
             // btnAct3
             // 

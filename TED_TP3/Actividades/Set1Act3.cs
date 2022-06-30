@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace TED_TP3.Actividades
 {
-    public partial class Set2Act1 : Form
+    public partial class Set1Act3 : Form
     {
-        private Set2 set2;
-        public Set2Act1(Set2 set2)
+        private Set1 set1;
+        public Set1Act3(Set1 set1)
         {
             InitializeComponent();
-            this.set2 = set2;
+            this.set1 = set1;
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -26,8 +26,8 @@ namespace TED_TP3.Actividades
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Volviendo a set de actividades 2...");
-            set2.habilitarAct2();
+            MessageBox.Show("Volviendo a set de actividades 1...");
+            set1.habilitarAct4();
             Close();
         }
     }

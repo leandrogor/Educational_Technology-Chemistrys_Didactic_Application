@@ -1,6 +1,6 @@
 ﻿namespace TED_TP3.Actividades
 {
-    partial class Set2Act1
+    partial class Set1Act3
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Set2Act1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Set1Act3));
             this.label8 = new System.Windows.Forms.Label();
             this.cantErrores = new System.Windows.Forms.Label();
             this.lblCantCorr = new System.Windows.Forms.Label();
@@ -49,7 +49,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(129, 29);
             this.label8.TabIndex = 74;
-            this.label8.Text = "Actividad 1";
+            this.label8.Text = "Actividad 3";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cantErrores
@@ -147,7 +147,7 @@
             this.lblTitulo.Text = "A TODO QUÍMICA";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Set2Act1
+            // Set1Act3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -167,9 +167,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Set2Act1";
+            this.Name = "Set1Act3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Set2Act2";
+            this.Text = "Set1Act3";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

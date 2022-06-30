@@ -1,6 +1,6 @@
 ﻿namespace TED_TP3.Actividades
 {
-    partial class Set2Act1
+    partial class Set2Act2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Set2Act1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Set2Act2));
             this.label8 = new System.Windows.Forms.Label();
             this.cantErrores = new System.Windows.Forms.Label();
             this.lblCantCorr = new System.Windows.Forms.Label();
@@ -48,8 +48,8 @@
             this.label8.Location = new System.Drawing.Point(505, 80);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(129, 29);
-            this.label8.TabIndex = 74;
-            this.label8.Text = "Actividad 1";
+            this.label8.TabIndex = 83;
+            this.label8.Text = "Actividad 2";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cantErrores
@@ -59,7 +59,7 @@
             this.cantErrores.Location = new System.Drawing.Point(371, 468);
             this.cantErrores.Name = "cantErrores";
             this.cantErrores.Size = new System.Drawing.Size(66, 18);
-            this.cantErrores.TabIndex = 73;
+            this.cantErrores.TabIndex = 82;
             this.cantErrores.Text = "(errores)";
             this.cantErrores.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cantErrores.Visible = false;
@@ -71,7 +71,7 @@
             this.lblCantCorr.Location = new System.Drawing.Point(254, 468);
             this.lblCantCorr.Name = "lblCantCorr";
             this.lblCantCorr.Size = new System.Drawing.Size(40, 18);
-            this.lblCantCorr.TabIndex = 72;
+            this.lblCantCorr.TabIndex = 81;
             this.lblCantCorr.Text = "(nro)";
             this.lblCantCorr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -82,7 +82,7 @@
             this.label7.Location = new System.Drawing.Point(12, 468);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(238, 18);
-            this.label7.TabIndex = 71;
+            this.label7.TabIndex = 80;
             this.label7.Text = "Cantidad de respuestas correctas: ";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -95,7 +95,7 @@
             this.btnSiguiente.Location = new System.Drawing.Point(556, 439);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(124, 44);
-            this.btnSiguiente.TabIndex = 66;
+            this.btnSiguiente.TabIndex = 75;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSiguiente.UseVisualStyleBackColor = true;
@@ -109,7 +109,7 @@
             this.btnVolver.Location = new System.Drawing.Point(700, 439);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
-            this.btnVolver.TabIndex = 67;
+            this.btnVolver.TabIndex = 76;
             this.btnVolver.Text = "Volver";
             this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVolver.UseVisualStyleBackColor = true;
@@ -122,7 +122,7 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(132, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 70;
+            this.pictureBox1.TabIndex = 79;
             this.pictureBox1.TabStop = false;
             // 
             // lblPregunta
@@ -132,7 +132,7 @@
             this.lblPregunta.Location = new System.Drawing.Point(19, 99);
             this.lblPregunta.Name = "lblPregunta";
             this.lblPregunta.Size = new System.Drawing.Size(131, 29);
-            this.lblPregunta.TabIndex = 69;
+            this.lblPregunta.TabIndex = 78;
             this.lblPregunta.Text = "(Consigna)";
             this.lblPregunta.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -143,11 +143,11 @@
             this.lblTitulo.Location = new System.Drawing.Point(12, 11);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(533, 69);
-            this.lblTitulo.TabIndex = 68;
+            this.lblTitulo.TabIndex = 77;
             this.lblTitulo.Text = "A TODO QUÍMICA";
             this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Set2Act1
+            // Set2Act2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -167,7 +167,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "Set2Act1";
+            this.Name = "Set2Act2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Set2Act2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

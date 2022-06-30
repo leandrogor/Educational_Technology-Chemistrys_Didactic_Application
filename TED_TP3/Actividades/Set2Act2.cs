@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace TED_TP3.Actividades
 {
-    public partial class Set2Act1 : Form
+    public partial class Set2Act2 : Form
     {
         private Set2 set2;
-        public Set2Act1(Set2 set2)
+        public Set2Act2(Set2 set2)
         {
             InitializeComponent();
             this.set2 = set2;
@@ -27,7 +27,7 @@ namespace TED_TP3.Actividades
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Volviendo a set de actividades 2...");
-            set2.habilitarAct2();
+            set2.habilitarAct3();
             Close();
         }
     }

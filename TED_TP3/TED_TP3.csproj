@@ -71,6 +71,12 @@
     <Compile Include="Actividades\Set1Act2.Designer.cs">
       <DependentUpon>Set1Act2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Actividades\Set1Act3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Set1Act3.Designer.cs">
+      <DependentUpon>Set1Act3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Actividades\Set2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,18 @@
     </Compile>
     <Compile Include="Actividades\Set2Act1.Designer.cs">
       <DependentUpon>Set2Act1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\Set2Act2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Set2Act2.Designer.cs">
+      <DependentUpon>Set2Act2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actividades\Set2Act3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Set2Act3.Designer.cs">
+      <DependentUpon>Set2Act3.cs</DependentUpon>
     </Compile>
     <Compile Include="Login\Docente.cs" />
     <Compile Include="Login\Jugador.cs" />
@@ -129,11 +147,20 @@
     <EmbeddedResource Include="Actividades\Set1Act2.resx">
       <DependentUpon>Set1Act2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Set1Act3.resx">
+      <DependentUpon>Set1Act3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Actividades\Set2.resx">
       <DependentUpon>Set2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Actividades\Set2Act1.resx">
       <DependentUpon>Set2Act1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Set2Act2.resx">
+      <DependentUpon>Set2Act2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actividades\Set2Act3.resx">
+      <DependentUpon>Set2Act3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\LoginCrear.resx">
       <DependentUpon>LoginCrear.cs</DependentUpon>
