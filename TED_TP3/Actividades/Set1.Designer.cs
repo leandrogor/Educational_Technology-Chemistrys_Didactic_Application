@@ -102,7 +102,6 @@
             // btnAct2
             // 
             this.btnAct2.AutoSize = true;
-            this.btnAct2.Enabled = false;
             this.btnAct2.ForeColor = System.Drawing.Color.Black;
             this.btnAct2.Location = new System.Drawing.Point(254, 180);
             this.btnAct2.Name = "btnAct2";

@@ -121,6 +121,7 @@ namespace TED_TP3.Actividades
                     MessageBox.Show("Ya puede avanzar a la siguiente actividad!", "Tarea completada",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                     btnSiguiente.Enabled = true;
+                    btnSiguiente.Focus();
                 }
             }
             else
