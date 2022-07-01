@@ -64,17 +64,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.lblCantCorr = new System.Windows.Forms.Label();
-            this.lblResCor = new System.Windows.Forms.Label();
+            this.lblCantCorr1 = new System.Windows.Forms.Label();
+            this.lblResCor1 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
             this.btnAyuda = new System.Windows.Forms.Button();
             this.btnVerificar = new System.Windows.Forms.Button();
             this.btnOcultarAyuda = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.btnVerificar2 = new System.Windows.Forms.Button();
+            this.lblCantCorr2 = new System.Windows.Forms.Label();
+            this.lblResCor2 = new System.Windows.Forms.Label();
             this.panelAyuda.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -146,7 +146,7 @@
             this.comboBox2.Location = new System.Drawing.Point(224, 257);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
+            this.comboBox2.Size = new System.Drawing.Size(170, 24);
             this.comboBox2.TabIndex = 3;
             // 
             // label6
@@ -170,7 +170,7 @@
             this.comboBox3.Location = new System.Drawing.Point(180, 292);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 24);
+            this.comboBox3.Size = new System.Drawing.Size(171, 24);
             this.comboBox3.TabIndex = 4;
             // 
             // label7
@@ -374,7 +374,7 @@
             // 
             this.btnImagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
             this.btnImagen.Image = ((System.Drawing.Image)(resources.GetObject("btnImagen.Image")));
-            this.btnImagen.Location = new System.Drawing.Point(37, 498);
+            this.btnImagen.Location = new System.Drawing.Point(37, 418);
             this.btnImagen.Margin = new System.Windows.Forms.Padding(4);
             this.btnImagen.Name = "btnImagen";
             this.btnImagen.Size = new System.Drawing.Size(77, 80);
@@ -390,10 +390,10 @@
             this.panelAyuda.Controls.Add(this.pictureBox1);
             this.panelAyuda.Controls.Add(this.label21);
             this.panelAyuda.Controls.Add(this.label20);
-            this.panelAyuda.Location = new System.Drawing.Point(132, 498);
+            this.panelAyuda.Location = new System.Drawing.Point(132, 418);
             this.panelAyuda.Margin = new System.Windows.Forms.Padding(4);
             this.panelAyuda.Name = "panelAyuda";
-            this.panelAyuda.Size = new System.Drawing.Size(815, 214);
+            this.panelAyuda.Size = new System.Drawing.Size(866, 214);
             this.panelAyuda.TabIndex = 45;
             this.panelAyuda.Visible = false;
             // 
@@ -414,7 +414,7 @@
             this.label22.Location = new System.Drawing.Point(500, 6);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(329, 85);
+            this.label22.Size = new System.Drawing.Size(330, 85);
             this.label22.TabIndex = 47;
             this.label22.Text = resources.GetString("label22.Text");
             // 
@@ -482,31 +482,31 @@
             this.label10.TabIndex = 48;
             this.label10.Text = "es probable que llueva ";
             // 
-            // lblCantCorr
+            // lblCantCorr1
             // 
-            this.lblCantCorr.AutoSize = true;
-            this.lblCantCorr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblCantCorr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.lblCantCorr.Location = new System.Drawing.Point(260, 374);
-            this.lblCantCorr.Name = "lblCantCorr";
-            this.lblCantCorr.Size = new System.Drawing.Size(40, 18);
-            this.lblCantCorr.TabIndex = 67;
-            this.lblCantCorr.Text = "(nro)";
-            this.lblCantCorr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblCantCorr.Visible = false;
+            this.lblCantCorr1.AutoSize = true;
+            this.lblCantCorr1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblCantCorr1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
+            this.lblCantCorr1.Location = new System.Drawing.Point(406, 367);
+            this.lblCantCorr1.Name = "lblCantCorr1";
+            this.lblCantCorr1.Size = new System.Drawing.Size(16, 18);
+            this.lblCantCorr1.TabIndex = 67;
+            this.lblCantCorr1.Text = "0";
+            this.lblCantCorr1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCantCorr1.Visible = false;
             // 
-            // lblResCor
+            // lblResCor1
             // 
-            this.lblResCor.AutoSize = true;
-            this.lblResCor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblResCor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.lblResCor.Location = new System.Drawing.Point(18, 374);
-            this.lblResCor.Name = "lblResCor";
-            this.lblResCor.Size = new System.Drawing.Size(238, 18);
-            this.lblResCor.TabIndex = 66;
-            this.lblResCor.Text = "Cantidad de respuestas correctas: ";
-            this.lblResCor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblResCor.Visible = false;
+            this.lblResCor1.AutoSize = true;
+            this.lblResCor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblResCor1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
+            this.lblResCor1.Location = new System.Drawing.Point(156, 367);
+            this.lblResCor1.Name = "lblResCor1";
+            this.lblResCor1.Size = new System.Drawing.Size(238, 18);
+            this.lblResCor1.TabIndex = 66;
+            this.lblResCor1.Text = "Cantidad de respuestas correctas: ";
+            this.lblResCor1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblResCor1.Visible = false;
             // 
             // pictureBox11
             // 
@@ -521,28 +521,31 @@
             // btnSiguiente
             // 
             this.btnSiguiente.AutoSize = true;
+            this.btnSiguiente.Enabled = false;
             this.btnSiguiente.ForeColor = System.Drawing.Color.Black;
             this.btnSiguiente.Image = global::TED_TP3.Properties.Resources.FlechasDerechaNegro;
-            this.btnSiguiente.Location = new System.Drawing.Point(793, 431);
+            this.btnSiguiente.Location = new System.Drawing.Point(793, 355);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(124, 44);
             this.btnSiguiente.TabIndex = 13;
             this.btnSiguiente.Text = "Siguiente";
             this.btnSiguiente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSiguiente.UseVisualStyleBackColor = true;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // btnVolver
             // 
             this.btnVolver.AutoSize = true;
             this.btnVolver.ForeColor = System.Drawing.Color.Black;
             this.btnVolver.Image = global::TED_TP3.Properties.Resources.VolverNegro;
-            this.btnVolver.Location = new System.Drawing.Point(936, 431);
+            this.btnVolver.Location = new System.Drawing.Point(936, 355);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
             this.btnVolver.TabIndex = 14;
             this.btnVolver.Text = "Volver";
             this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // btnAyuda
             // 
@@ -561,19 +564,20 @@
             // 
             this.btnVerificar.AutoSize = true;
             this.btnVerificar.ForeColor = System.Drawing.Color.Black;
-            this.btnVerificar.Location = new System.Drawing.Point(321, 369);
+            this.btnVerificar.Location = new System.Drawing.Point(26, 362);
             this.btnVerificar.Name = "btnVerificar";
             this.btnVerificar.Size = new System.Drawing.Size(124, 30);
             this.btnVerificar.TabIndex = 5;
             this.btnVerificar.Text = "Verificar";
             this.btnVerificar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVerificar.UseVisualStyleBackColor = true;
+            this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
             // 
             // btnOcultarAyuda
             // 
             this.btnOcultarAyuda.AutoSize = true;
             this.btnOcultarAyuda.ForeColor = System.Drawing.Color.Black;
-            this.btnOcultarAyuda.Location = new System.Drawing.Point(456, 441);
+            this.btnOcultarAyuda.Location = new System.Drawing.Point(456, 265);
             this.btnOcultarAyuda.Name = "btnOcultarAyuda";
             this.btnOcultarAyuda.Size = new System.Drawing.Size(124, 34);
             this.btnOcultarAyuda.TabIndex = 12;
@@ -583,59 +587,60 @@
             this.btnOcultarAyuda.Visible = false;
             this.btnOcultarAyuda.Click += new System.EventHandler(this.btnOcultarAyuda_Click);
             // 
-            // button1
+            // btnVerificar2
             // 
-            this.button1.AutoSize = true;
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(928, 369);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 30);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Verificar";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnVerificar2.AutoSize = true;
+            this.btnVerificar2.ForeColor = System.Drawing.Color.Black;
+            this.btnVerificar2.Location = new System.Drawing.Point(603, 297);
+            this.btnVerificar2.Name = "btnVerificar2";
+            this.btnVerificar2.Size = new System.Drawing.Size(124, 30);
+            this.btnVerificar2.TabIndex = 10;
+            this.btnVerificar2.Text = "Verificar";
+            this.btnVerificar2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnVerificar2.UseVisualStyleBackColor = true;
+            this.btnVerificar2.Click += new System.EventHandler(this.btnVerificar2_Click);
             // 
-            // label23
+            // lblCantCorr2
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label23.Location = new System.Drawing.Point(867, 374);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(40, 18);
-            this.label23.TabIndex = 97;
-            this.label23.Text = "(nro)";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label23.Visible = false;
+            this.lblCantCorr2.AutoSize = true;
+            this.lblCantCorr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblCantCorr2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
+            this.lblCantCorr2.Location = new System.Drawing.Point(985, 302);
+            this.lblCantCorr2.Name = "lblCantCorr2";
+            this.lblCantCorr2.Size = new System.Drawing.Size(16, 18);
+            this.lblCantCorr2.TabIndex = 97;
+            this.lblCantCorr2.Text = "0";
+            this.lblCantCorr2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCantCorr2.Visible = false;
             // 
-            // label24
+            // lblResCor2
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label24.Location = new System.Drawing.Point(625, 374);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(238, 18);
-            this.label24.TabIndex = 96;
-            this.label24.Text = "Cantidad de respuestas correctas: ";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label24.Visible = false;
+            this.lblResCor2.AutoSize = true;
+            this.lblResCor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblResCor2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
+            this.lblResCor2.Location = new System.Drawing.Point(733, 302);
+            this.lblResCor2.Name = "lblResCor2";
+            this.lblResCor2.Size = new System.Drawing.Size(238, 18);
+            this.lblResCor2.TabIndex = 96;
+            this.lblResCor2.Text = "Cantidad de respuestas correctas: ";
+            this.lblResCor2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblResCor2.Visible = false;
             // 
             // Set2Act2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1064, 489);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label24);
+            this.ClientSize = new System.Drawing.Size(1064, 417);
+            this.Controls.Add(this.lblCantCorr2);
+            this.Controls.Add(this.lblCantCorr1);
+            this.Controls.Add(this.btnVerificar2);
+            this.Controls.Add(this.lblResCor2);
             this.Controls.Add(this.btnVerificar);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.lblCantCorr);
-            this.Controls.Add(this.lblResCor);
+            this.Controls.Add(this.lblResCor1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label2);
@@ -675,6 +680,7 @@
             this.Name = "Set2Act2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Set2Act2";
+            this.Load += new System.EventHandler(this.Set2Act2_Load);
             this.panelAyuda.ResumeLayout(false);
             this.panelAyuda.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -722,16 +728,16 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblCantCorr;
-        private System.Windows.Forms.Label lblResCor;
+        private System.Windows.Forms.Label lblCantCorr1;
+        private System.Windows.Forms.Label lblResCor1;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Button btnAyuda;
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Button btnOcultarAyuda;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Button btnVerificar2;
+        private System.Windows.Forms.Label lblCantCorr2;
+        private System.Windows.Forms.Label lblResCor2;
     }
 }

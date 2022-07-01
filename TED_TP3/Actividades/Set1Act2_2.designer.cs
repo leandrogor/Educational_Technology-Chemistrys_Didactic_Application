@@ -419,7 +419,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(387, 167);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(132, 46);
+            this.pictureBox2.Size = new System.Drawing.Size(132, 52);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 43;
             this.pictureBox2.TabStop = false;
@@ -427,10 +427,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(527, 167);
+            this.pictureBox3.Location = new System.Drawing.Point(526, 167);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(137, 46);
+            this.pictureBox3.Size = new System.Drawing.Size(138, 52);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 44;
             this.pictureBox3.TabStop = false;
@@ -441,7 +441,7 @@
             this.pictureBox4.Location = new System.Drawing.Point(672, 167);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(135, 46);
+            this.pictureBox4.Size = new System.Drawing.Size(135, 52);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 45;
             this.pictureBox4.TabStop = false;
@@ -452,7 +452,7 @@
             this.pictureBox6.Location = new System.Drawing.Point(817, 167);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(135, 46);
+            this.pictureBox6.Size = new System.Drawing.Size(135, 52);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 47;
             this.pictureBox6.TabStop = false;

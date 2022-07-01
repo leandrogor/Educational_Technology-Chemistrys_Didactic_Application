@@ -13,9 +13,11 @@ namespace TED_TP3.Actividades
 {
     public partial class Set2 : Form
     {
-        public Set2()
+        private MainActividades mainActividades;
+        public Set2(MainActividades mainActividades)
         {
             InitializeComponent();
+            this.mainActividades = mainActividades;
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -37,7 +39,16 @@ namespace TED_TP3.Actividades
         private void btnAct2_Click(object sender, EventArgs e)
         {
             Set2Act2 ventana = new Set2Act2(this);
-            ventana.ShowDialog();
+            ventana.Show();
+            ventana.FormClosed += LogOut;
+            mainActividades.Hide();
+            Hide();
+        }
+
+        private void LogOut(object sender, FormClosedEventArgs e)
+        {
+            mainActividades.Show();
+            Show();
         }
 
         public void habilitarAct3()

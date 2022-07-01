@@ -19,6 +19,20 @@ namespace Prueba2
         {
             InitializeComponent();
             this.set2 = set2;
+            comboBox1.Sorted = true;
+            comboBox2.Sorted = true;
+            comboBox3.Sorted = true;
+            comboBox4.Sorted = true;
+            comboBox5.Sorted = true;
+            comboBox6.Sorted = true;
+        }
+
+        private void Set2Act2_Load(object sender, EventArgs e)
+        {
+            var point = new Point();
+            point.X = Location.X;
+            point.Y = Location.Y - 100;
+            Location = point;
         }
 
         private void btnVideo_Click(object sender, EventArgs e)
@@ -31,17 +45,35 @@ namespace Prueba2
             Process.Start("https://750.am/2021/01/14/el-cosito-del-clima-como-funciona-el-souvenir-preferido-de-las-personas-que-visitan-la-costa/");
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void btnAyuda_Click(object sender, EventArgs e)
         {
-            int result = 0;
+            Size = new Size(Size.Width, Size.Height + 200);
+            btnAyuda.Visible = false;
+
+            btnImagen.Visible = true;
+            panelAyuda.Visible = true;
+            btnOcultarAyuda.Visible = true;
+        }
+
+        private void btnOcultarAyuda_Click(object sender, EventArgs e)
+        {
+            Size = new Size(Size.Width, Size.Height - 200);
+            btnAyuda.Visible = true;
+
+            btnImagen.Visible = false;
+            panelAyuda.Visible = false;
+            btnOcultarAyuda.Visible = false;
+        }
+
+        private void btnVerificar_Click(object sender, EventArgs e)
+        {
+            int correctas = 0;
             if ((comboBox1.Text != ""))
             {
                 if (comboBox1.Text == "vidrio")
                 {
-
-                    result = result + 1;
+                    correctas = correctas + 1;
                     comboBox1.BackColor = Color.Green;
-
                 }
                 else
                 {
@@ -52,10 +84,8 @@ namespace Prueba2
             {
                 if (comboBox2.Text == "nitrato de potasio")
                 {
-
-                    result = result + 1;
+                    correctas = correctas + 1;
                     comboBox2.BackColor = Color.Green;
-
                 }
                 else
                 {
@@ -66,24 +96,31 @@ namespace Prueba2
             {
                 if (comboBox3.Text == "cloruro de amonio")
                 {
-
-                    result = result + 1;
+                    correctas = correctas + 1;
                     comboBox3.BackColor = Color.Green;
-
                 }
                 else
                 {
                     comboBox3.BackColor = Color.Red;
                 }
             }
+            lblResCor1.Visible = true;
+            lblCantCorr1.Text = correctas.ToString();
+            lblCantCorr1.Visible = true;
+
+            comboBox4.Focus();
+            validarSiPuedeAvanzar(lblCantCorr1.Text, lblCantCorr2.Text);
+        }
+
+        private void btnVerificar2_Click(object sender, EventArgs e)
+        {
+            int correctas = 0;
             if ((comboBox4.Text != ""))
             {
                 if (comboBox4.Text == "azul")
                 {
-
-                    result = result + 1;
+                    correctas = correctas + 1;
                     comboBox4.BackColor = Color.Green;
-
                 }
                 else
                 {
@@ -94,10 +131,8 @@ namespace Prueba2
             {
                 if (comboBox5.Text == "violeta")
                 {
-
-                    result = result + 1;
+                    correctas = correctas + 1;
                     comboBox5.BackColor = Color.Green;
-
                 }
                 else
                 {
@@ -108,65 +143,45 @@ namespace Prueba2
             {
                 if (comboBox6.Text == "rosado")
                 {
-
-                    result = result + 1;
+                    correctas = correctas + 1;
                     comboBox6.BackColor = Color.Green;
-
                 }
                 else
                 {
                     comboBox6.BackColor = Color.Red;
                 }
             }
-            MessageBox.Show("Su resultado es: " + result, "Resultado final", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            lblResCor.Visible = true;
-            lblCantCorr.Text = result.ToString();
-            lblCantCorr.Visible = true;
+            lblResCor2.Visible = true;
+            lblCantCorr2.Text = correctas.ToString();
+            lblCantCorr2.Visible = true;
 
-            if (result > 5)
+            comboBox1.Focus();
+            validarSiPuedeAvanzar(lblCantCorr1.Text, lblCantCorr2.Text);
+        }
+
+        private void validarSiPuedeAvanzar(string cant1, string cant2)
+        {
+            if (!btnSiguiente.Enabled)
             {
-                MessageBox.Show("Ya puede avanzar a la siguiente actividad!", "Tarea completada!",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                MessageBox.Show("Sigue intentando!", "Resultado insuficiente",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-                comboBox1.Focus();
+                if (int.Parse(cant1) + int.Parse(cant2) >= 4)
+                {
+                    MessageBox.Show("Ya puede avanzar a la siguiente actividad!", "Tarea completada!",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    btnSiguiente.Enabled = true;
+                    set2.habilitarAct3();
+                    btnSiguiente.Focus();
+                }
             }
         }
 
-        private void btnAyuda_Click(object sender, EventArgs e)
+        private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            var point = new Point();
-            point.X = Location.X;
-            point.Y = Location.Y - 100;
-            Location = point;
-
-            Size = new Size(Size.Width, 730);
-            btnSiguiente.Visible = false;
-            btnVolver.Visible = false;
-            btnAyuda.Visible = false;
-
-            btnImagen.Visible = true;
-            panelAyuda.Visible = true;
-            btnOcultarAyuda.Visible = true;
+            MessageBox.Show("Work in progress...");
         }
 
-        private void btnOcultarAyuda_Click(object sender, EventArgs e)
+        private void btnVolver_Click(object sender, EventArgs e)
         {
-            var point = new Point();
-            point.X = Location.X;
-            point.Y = Location.Y + 100;
-            Location = point;
-            Size = new Size(Size.Width, 487);
-            btnSiguiente.Visible = true;
-            btnVolver.Visible = true;
-            btnAyuda.Visible = true;
-
-            btnImagen.Visible = false;
-            panelAyuda.Visible = false;
-            btnOcultarAyuda.Visible = false;
+            Close();
         }
     }
 }

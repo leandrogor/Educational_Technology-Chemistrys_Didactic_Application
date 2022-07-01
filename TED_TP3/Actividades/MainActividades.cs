@@ -32,7 +32,7 @@ namespace TED_TP3.Actividades
 
         private void btnSet2_Click(object sender, EventArgs e)
         {
-            Set2 ventana = new Set2();
+            Set2 ventana = new Set2(this);
             ventana.ShowDialog();
         }
 
