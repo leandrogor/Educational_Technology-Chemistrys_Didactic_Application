@@ -113,6 +113,26 @@ namespace TED_TP3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CursoNegro {
+            get {
+                object obj = ResourceManager.GetObject("CursoNegro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DadosNegro {
+            get {
+                object obj = ResourceManager.GetObject("DadosNegro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EnviarNegro {
             get {
                 object obj = ResourceManager.GetObject("EnviarNegro", resourceCulture);

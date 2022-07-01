@@ -27,15 +27,17 @@ namespace TED_TP3.Actividades
             lblCantCorr.Text = "0";
             cantErrores.Text = "0";
 
-            Actividad actividad1 = new Actividad("¿Con qué compuestos se forma el Ácido Fulmínico?", "N1H1C1O1");
-            Actividad actividad2 = new Actividad("¿Con qué compuestos se forma el Cloruro de Sodio?", "Na1Cl1");
-            Actividad actividad3 = new Actividad("¿Con qué compuestos se forma el Ácido Perclórico?", "Cl1H1O4");
-            Actividad actividad4 = new Actividad("¿Con qué compuestos se forma el compuesto desconocido?", "");
+            Actividad actividad1 = new Actividad("Act1", "¿Cómo podemos formar Cloruro de sodio?", "Na1Cl1", "Más conocida como sal de mesa, está compuesto por dos elementos.");
+            Actividad actividad2 = new Actividad("Act2", "¿Cómo podemos formar Nitrato de potasio?", "K1N1O3", "Además del potasio, contiene nitrógeno y oxígeno.");
+            Actividad actividad3 = new Actividad("Act3", "¿Cómo podemos formar Bisulfato de sodio?", "Na1H1S1O4", "Es la sal de sodio del anión bisulfato.");
+            Actividad actividad4 = new Actividad("Act4", "¿Cómo podemos formar bicarbonato de sodio?", "Na1H1C1O3", "Es un antiácido usado para aliviar la pirosis.");
+            Actividad actividad5 = new Actividad("Act5", "¿Cómo podemos formar nitrato básico de cobre (II)?", "CuN2O6", "Además de cobre, contiene nitrógeno y oxígeno.");
 
             activiades.Add(actividad1);
             activiades.Add(actividad2);
             activiades.Add(actividad3);
             activiades.Add(actividad4);
+            activiades.Add(actividad5);
 
             nuevaPregunta(activiades);
         }
@@ -61,38 +63,53 @@ namespace TED_TP3.Actividades
         {
             string sodio = "";
             string cloro = "";
+            string cobre = "";
+            string potasio = "";
             string nitrogeno = "";
             string hidrogeno = "";
+            string azufre = "";
             string carbono = "";
             string oxigeno = "";
 
 
-            if (nUDNa.Value != 0)
+            if (Na.Value != 0)
             {
-                sodio = "Na" + nUDNa.Value;
+                sodio = "Na" + Na.Value;
             }
-            if (nUDCl.Value != 0)
+            if (Cl.Value != 0)
             {
-                cloro = "Cl" + nUDCl.Value;
+                cloro = "Cl" + Cl.Value;
             }
-            if (nUDN.Value != 0)
+            if (Cu.Value != 0)
             {
-                nitrogeno = "N" + nUDN.Value;
+                cobre = "Cu" + Cu.Value;
             }
-            if (nUDH.Value != 0)
+            if (K.Value != 0)
             {
-                hidrogeno = "H" + nUDH.Value;
+                potasio = "K" + K.Value;
             }
-            if (nUDC.Value != 0)
+            if (N.Value != 0)
             {
-                carbono = "C" + nUDC.Value;
+                nitrogeno = "N" + N.Value;
             }
-            if (nUDO.Value != 0)
+            if (H.Value != 0)
             {
-                oxigeno = "O" + nUDO.Value;
+                hidrogeno = "H" + H.Value;
+            }
+            if (S.Value != 0)
+            {
+                azufre = "S" + H.Value;
+            }
+            if (C.Value != 0)
+            {
+                carbono = "C" + C.Value;
+            }
+            if (O.Value != 0)
+            {
+                oxigeno = "O" + O.Value;
             }
 
-            txtCompuesto.Text = sodio + cloro + nitrogeno + hidrogeno + carbono + oxigeno;
+            txtCompuesto.Text = sodio + cloro + cobre + potasio + nitrogeno + hidrogeno + azufre + carbono + oxigeno;
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -141,18 +158,22 @@ namespace TED_TP3.Actividades
             txtCompuesto.Text = "(Compuesto)";
             cantErrores.Text = "0";
             btnAyuda.Enabled = false;
-            nUDNa.Value = 0;
-            nUDCl.Value = 0;
-            nUDN.Value = 0;
-            nUDH.Value = 0;
-            nUDC.Value = 0;
-            nUDO.Value = 0;
-            nUDNa.Focus();
+            Na.Value = 0;
+            Cl.Value = 0;
+            Cu.Value = 0;
+            K.Value = 0;
+            N.Value = 0;
+            H.Value = 0;
+            S.Value = 0;
+            C.Value = 0;
+            O.Value = 0;
+            Na.Focus();
         }
 
         private void btnAyuda_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Work in progress...");
+            MessageBox.Show(actSeleccionada.ayuda, "Ayuda", 
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)

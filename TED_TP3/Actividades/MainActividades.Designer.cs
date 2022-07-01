@@ -37,6 +37,8 @@
             this.btnSet1 = new System.Windows.Forms.Button();
             this.btnSet2 = new System.Windows.Forms.Button();
             this.btnSet3 = new System.Windows.Forms.Button();
+            this.btnCurso = new System.Windows.Forms.Button();
+            this.btnExe = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,7 +83,7 @@
             this.btnVolver.Location = new System.Drawing.Point(672, 348);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
-            this.btnVolver.TabIndex = 4;
+            this.btnVolver.TabIndex = 6;
             this.btnVolver.Text = "Volver";
             this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVolver.UseVisualStyleBackColor = true;
@@ -136,12 +138,42 @@
             this.btnSet3.UseVisualStyleBackColor = true;
             this.btnSet3.Click += new System.EventHandler(this.btnSet3_Click);
             // 
+            // btnCurso
+            // 
+            this.btnCurso.AutoSize = true;
+            this.btnCurso.ForeColor = System.Drawing.Color.Black;
+            this.btnCurso.Image = global::TED_TP3.Properties.Resources.CursoNegro;
+            this.btnCurso.Location = new System.Drawing.Point(322, 348);
+            this.btnCurso.Name = "btnCurso";
+            this.btnCurso.Size = new System.Drawing.Size(169, 44);
+            this.btnCurso.TabIndex = 4;
+            this.btnCurso.Text = "Acceso a Curso";
+            this.btnCurso.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCurso.UseVisualStyleBackColor = true;
+            this.btnCurso.Click += new System.EventHandler(this.btnCurso_Click);
+            // 
+            // btnExe
+            // 
+            this.btnExe.AutoSize = true;
+            this.btnExe.ForeColor = System.Drawing.Color.Black;
+            this.btnExe.Image = global::TED_TP3.Properties.Resources.DadosNegro;
+            this.btnExe.Location = new System.Drawing.Point(497, 348);
+            this.btnExe.Name = "btnExe";
+            this.btnExe.Size = new System.Drawing.Size(169, 44);
+            this.btnExe.TabIndex = 5;
+            this.btnExe.Text = "Acceso a Exe";
+            this.btnExe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnExe.UseVisualStyleBackColor = true;
+            this.btnExe.Click += new System.EventHandler(this.btnExe_Click);
+            // 
             // MainActividades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(800, 415);
+            this.Controls.Add(this.btnExe);
+            this.Controls.Add(this.btnCurso);
             this.Controls.Add(this.btnSet3);
             this.Controls.Add(this.btnSet2);
             this.Controls.Add(this.btnSet1);
@@ -174,5 +206,7 @@
         private System.Windows.Forms.Button btnSet1;
         private System.Windows.Forms.Button btnSet2;
         private System.Windows.Forms.Button btnSet3;
+        private System.Windows.Forms.Button btnCurso;
+        private System.Windows.Forms.Button btnExe;
     }
 }

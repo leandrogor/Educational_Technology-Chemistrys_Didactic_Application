@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -39,6 +40,23 @@ namespace TED_TP3.Actividades
         private void btnSet3_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Work in progress...");
+        }
+
+        private void btnCurso_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://todoquimica.gnomio.com/");
+        }
+
+        private void btnExe_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Process.Start("C:\\Users\\Leandro\\source\\repos\\TED_TP3\\TED_TP3\\Varios\\TED_TP2.FINAL.elp");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No se ha encontrado el exelearning, verifique la ruta del archivo");
+            }
         }
     }
 }

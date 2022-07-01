@@ -21,6 +21,11 @@ namespace Prueba2
         private void btnVideo_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.youtube.com/watch?v=qwxptJvloio&t=161s");
+            comboBox1.Enabled = true;
+            comboBox2.Enabled = true;
+            comboBox3.Enabled = true;
+            comboBox4.Enabled = true;
+            comboBox5.Enabled = true;
         }
 
         private void btnAyuda_Click(object sender, EventArgs e)
