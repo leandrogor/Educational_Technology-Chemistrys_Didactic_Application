@@ -47,9 +47,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label8.Location = new System.Drawing.Point(505, 80);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(129, 29);
+            this.label8.Size = new System.Drawing.Size(204, 29);
             this.label8.TabIndex = 74;
-            this.label8.Text = "Actividad 3";
+            this.label8.Text = "Set 1 - Actividad 3";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cantErrores

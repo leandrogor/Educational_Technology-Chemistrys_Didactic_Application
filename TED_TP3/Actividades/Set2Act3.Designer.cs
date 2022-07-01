@@ -45,18 +45,18 @@
             this.p3 = new System.Windows.Forms.CheckBox();
             this.p4 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.r6 = new System.Windows.Forms.Label();
+            this.r5 = new System.Windows.Forms.Label();
+            this.p6 = new System.Windows.Forms.CheckBox();
+            this.p5 = new System.Windows.Forms.CheckBox();
             this.r4 = new System.Windows.Forms.Label();
             this.r3 = new System.Windows.Forms.Label();
             this.r2 = new System.Windows.Forms.Label();
             this.r1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.p6 = new System.Windows.Forms.CheckBox();
-            this.p5 = new System.Windows.Forms.CheckBox();
-            this.r6 = new System.Windows.Forms.Label();
-            this.r5 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.lblNoCor = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -67,9 +67,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label8.Location = new System.Drawing.Point(505, 80);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(129, 29);
+            this.label8.Size = new System.Drawing.Size(204, 29);
             this.label8.TabIndex = 92;
-            this.label8.Text = "Actividad 3";
+            this.label8.Text = "Set 2 - Actividad 3";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblCantErrores
@@ -255,6 +255,81 @@
             this.panel1.TabIndex = 103;
             this.panel1.Visible = false;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label11.Location = new System.Drawing.Point(13, 28);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(327, 20);
+            this.label11.TabIndex = 112;
+            this.label11.Text = "a reducir los gases de efecto invernadero?";
+            // 
+            // button2
+            // 
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(46, 236);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(97, 26);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Verificar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label9.Location = new System.Drawing.Point(12, 8);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(295, 20);
+            this.label9.TabIndex = 111;
+            this.label9.Text = "¿Cuales medidas crees que ayudarían";
+            // 
+            // r6
+            // 
+            this.r6.AutoSize = true;
+            this.r6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.r6.Location = new System.Drawing.Point(266, 209);
+            this.r6.Name = "r6";
+            this.r6.Size = new System.Drawing.Size(267, 16);
+            this.r6.TabIndex = 110;
+            this.r6.Text = "No. Son la principal causa de deforestación";
+            this.r6.Visible = false;
+            // 
+            // r5
+            // 
+            this.r5.AutoSize = true;
+            this.r5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.r5.Location = new System.Drawing.Point(266, 179);
+            this.r5.Name = "r5";
+            this.r5.Size = new System.Drawing.Size(178, 16);
+            this.r5.TabIndex = 109;
+            this.r5.Text = "No, su uso es lo más óptimo!";
+            this.r5.Visible = false;
+            // 
+            // p6
+            // 
+            this.p6.AutoSize = true;
+            this.p6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.p6.Location = new System.Drawing.Point(16, 207);
+            this.p6.Name = "p6";
+            this.p6.Size = new System.Drawing.Size(227, 20);
+            this.p6.TabIndex = 6;
+            this.p6.Text = "Apoyar a grandes prod agrícolas";
+            this.p6.UseVisualStyleBackColor = true;
+            // 
+            // p5
+            // 
+            this.p5.AutoSize = true;
+            this.p5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.p5.Location = new System.Drawing.Point(16, 177);
+            this.p5.Name = "p5";
+            this.p5.Size = new System.Drawing.Size(243, 20);
+            this.p5.TabIndex = 5;
+            this.p5.Text = "Evitar uso de bicicletas o caminatas";
+            this.p5.UseVisualStyleBackColor = true;
+            // 
             // r4
             // 
             this.r4.AutoSize = true;
@@ -299,71 +374,6 @@
             this.r1.Text = "Así es, aprovechando los medios";
             this.r1.Visible = false;
             // 
-            // button2
-            // 
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(46, 236);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 26);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Verificar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // p6
-            // 
-            this.p6.AutoSize = true;
-            this.p6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.p6.Location = new System.Drawing.Point(16, 207);
-            this.p6.Name = "p6";
-            this.p6.Size = new System.Drawing.Size(227, 20);
-            this.p6.TabIndex = 6;
-            this.p6.Text = "Apoyar a grandes prod agrícolas";
-            this.p6.UseVisualStyleBackColor = true;
-            // 
-            // p5
-            // 
-            this.p5.AutoSize = true;
-            this.p5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.p5.Location = new System.Drawing.Point(16, 177);
-            this.p5.Name = "p5";
-            this.p5.Size = new System.Drawing.Size(243, 20);
-            this.p5.TabIndex = 5;
-            this.p5.Text = "Evitar uso de bicicletas o caminatas";
-            this.p5.UseVisualStyleBackColor = true;
-            // 
-            // r6
-            // 
-            this.r6.AutoSize = true;
-            this.r6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.r6.Location = new System.Drawing.Point(266, 209);
-            this.r6.Name = "r6";
-            this.r6.Size = new System.Drawing.Size(267, 16);
-            this.r6.TabIndex = 110;
-            this.r6.Text = "No. Son la principal causa de deforestación";
-            this.r6.Visible = false;
-            // 
-            // r5
-            // 
-            this.r5.AutoSize = true;
-            this.r5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.r5.Location = new System.Drawing.Point(266, 179);
-            this.r5.Name = "r5";
-            this.r5.Size = new System.Drawing.Size(178, 16);
-            this.r5.TabIndex = 109;
-            this.r5.Text = "No, su uso es lo más óptimo!";
-            this.r5.Visible = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label9.Location = new System.Drawing.Point(12, 8);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(295, 20);
-            this.label9.TabIndex = 111;
-            this.label9.Text = "¿Cuales medidas crees que ayudarían";
-            // 
             // lblNoCor
             // 
             this.lblNoCor.AutoSize = true;
@@ -375,16 +385,6 @@
             this.lblNoCor.Text = "Incorrectas: ";
             this.lblNoCor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblNoCor.Visible = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.label11.Location = new System.Drawing.Point(13, 28);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(327, 20);
-            this.label11.TabIndex = 112;
-            this.label11.Text = "a reducir los gases de efecto invernadero?";
             // 
             // Set2Act3
             // 

@@ -73,6 +73,8 @@ namespace TED_TP3
                             cadena = leer.ReadLine();
                         }
                     }
+                    leer.Close();
+
                     if (existente == false)
                     {
                         MessageBox.Show("Usuario inexistente",

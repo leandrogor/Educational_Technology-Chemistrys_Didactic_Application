@@ -334,12 +334,12 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label19.Location = new System.Drawing.Point(451, 88);
+            this.label19.Location = new System.Drawing.Point(512, 80);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(129, 29);
+            this.label19.Size = new System.Drawing.Size(204, 29);
             this.label19.TabIndex = 41;
-            this.label19.Text = "Actividad 2";
+            this.label19.Text = "Set 2 - Actividad 2";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnNoticia

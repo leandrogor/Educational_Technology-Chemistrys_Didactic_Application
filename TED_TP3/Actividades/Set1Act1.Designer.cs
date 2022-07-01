@@ -331,11 +331,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.label8.Location = new System.Drawing.Point(504, 78);
+            this.label8.Location = new System.Drawing.Point(474, 78);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(129, 29);
+            this.label8.Size = new System.Drawing.Size(204, 29);
             this.label8.TabIndex = 40;
-            this.label8.Text = "Actividad 1";
+            this.label8.Text = "Set 1 - Actividad 1";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label9

@@ -72,7 +72,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label2.Location = new System.Drawing.Point(11, 83);
+            this.label2.Location = new System.Drawing.Point(16, 122);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(434, 25);
@@ -303,11 +303,11 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label16.Location = new System.Drawing.Point(484, 83);
+            this.label16.Location = new System.Drawing.Point(434, 76);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(254, 29);
+            this.label16.Size = new System.Drawing.Size(329, 29);
             this.label16.TabIndex = 41;
-            this.label16.Text = "Actividad 2 (2da Parte)";
+            this.label16.Text = "Set 2 - Actividad 2 (2da Parte)";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnVideo
@@ -315,7 +315,7 @@
             this.btnVideo.ForeColor = System.Drawing.Color.Black;
             this.btnVideo.Image = ((System.Drawing.Image)(resources.GetObject("btnVideo.Image")));
             this.btnVideo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVideo.Location = new System.Drawing.Point(24, 116);
+            this.btnVideo.Location = new System.Drawing.Point(455, 118);
             this.btnVideo.Name = "btnVideo";
             this.btnVideo.Size = new System.Drawing.Size(90, 36);
             this.btnVideo.TabIndex = 1;

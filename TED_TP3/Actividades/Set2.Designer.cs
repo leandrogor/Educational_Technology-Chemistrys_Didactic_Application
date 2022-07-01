@@ -127,7 +127,7 @@
             this.lblBienvenida.Name = "lblBienvenida";
             this.lblBienvenida.Size = new System.Drawing.Size(254, 39);
             this.lblBienvenida.TabIndex = 22;
-            this.lblBienvenida.Text = "Comenzemos...";
+            this.lblBienvenida.Text = "Comencemos...";
             this.lblBienvenida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblTitulo

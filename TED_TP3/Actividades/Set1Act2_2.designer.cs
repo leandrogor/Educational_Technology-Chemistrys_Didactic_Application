@@ -101,7 +101,7 @@
             "Sulfuro de oro 1 ",
             "Sulfuro de oro 2",
             "Fosfato de hierro 3"});
-            this.cmb11.Location = new System.Drawing.Point(227, 303);
+            this.cmb11.Location = new System.Drawing.Point(227, 327);
             this.cmb11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb11.Name = "cmb11";
             this.cmb11.Size = new System.Drawing.Size(152, 24);
@@ -112,7 +112,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label1.Location = new System.Drawing.Point(76, 304);
+            this.label1.Location = new System.Drawing.Point(76, 328);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 20);
             this.label1.TabIndex = 1;
@@ -123,7 +123,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label2.Location = new System.Drawing.Point(15, 265);
+            this.label2.Location = new System.Drawing.Point(15, 289);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(176, 20);
             this.label2.TabIndex = 2;
@@ -134,7 +134,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label3.Location = new System.Drawing.Point(49, 230);
+            this.label3.Location = new System.Drawing.Point(49, 254);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(118, 20);
             this.label3.TabIndex = 3;
@@ -150,7 +150,7 @@
             "Sulfuro auroso",
             "Sulfuro aurico",
             "Fosfato de hierro"});
-            this.cmb6.Location = new System.Drawing.Point(227, 265);
+            this.cmb6.Location = new System.Drawing.Point(227, 289);
             this.cmb6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb6.Name = "cmb6";
             this.cmb6.Size = new System.Drawing.Size(152, 24);
@@ -167,7 +167,7 @@
             "Sulfuro de dioro",
             "Sulfuro de oro",
             "Bisfosfato de trihierro"});
-            this.cmb1.Location = new System.Drawing.Point(227, 225);
+            this.cmb1.Location = new System.Drawing.Point(227, 249);
             this.cmb1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb1.Name = "cmb1";
             this.cmb1.Size = new System.Drawing.Size(152, 24);
@@ -183,7 +183,7 @@
             "Sulfuro de oro 1 ",
             "Sulfuro de oro 2",
             "Fosfato de hierro 3"});
-            this.cmb12.Location = new System.Drawing.Point(387, 303);
+            this.cmb12.Location = new System.Drawing.Point(387, 327);
             this.cmb12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb12.Name = "cmb12";
             this.cmb12.Size = new System.Drawing.Size(132, 24);
@@ -199,7 +199,7 @@
             "Sulfuro auroso",
             "Sulfuro aurico",
             "Fosfato de hierro"});
-            this.cmb7.Location = new System.Drawing.Point(387, 265);
+            this.cmb7.Location = new System.Drawing.Point(387, 289);
             this.cmb7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb7.Name = "cmb7";
             this.cmb7.Size = new System.Drawing.Size(132, 24);
@@ -215,7 +215,7 @@
             "Sulfuro de dioro",
             "Sulfuro de oro",
             "Bisfosfato de trihierro"});
-            this.cmb2.Location = new System.Drawing.Point(387, 225);
+            this.cmb2.Location = new System.Drawing.Point(387, 249);
             this.cmb2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb2.Name = "cmb2";
             this.cmb2.Size = new System.Drawing.Size(132, 24);
@@ -231,7 +231,7 @@
             "Sulfuro de oro 1",
             "Sulfuro de oro 2",
             "Fosfato de hierro 3 "});
-            this.cmb13.Location = new System.Drawing.Point(526, 303);
+            this.cmb13.Location = new System.Drawing.Point(526, 327);
             this.cmb13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb13.Name = "cmb13";
             this.cmb13.Size = new System.Drawing.Size(138, 24);
@@ -247,7 +247,7 @@
             "Sulfuro auroso",
             "Sulfuro aurico",
             "Fosfato de hierro"});
-            this.cmb8.Location = new System.Drawing.Point(526, 265);
+            this.cmb8.Location = new System.Drawing.Point(526, 289);
             this.cmb8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb8.Name = "cmb8";
             this.cmb8.Size = new System.Drawing.Size(138, 24);
@@ -263,7 +263,7 @@
             "Sulfuro de dioro",
             "Sulfuro de oro",
             "Bisfosfato de trihierro"});
-            this.cmb3.Location = new System.Drawing.Point(526, 225);
+            this.cmb3.Location = new System.Drawing.Point(526, 249);
             this.cmb3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb3.Name = "cmb3";
             this.cmb3.Size = new System.Drawing.Size(138, 24);
@@ -279,7 +279,7 @@
             "Sulfuro de oro 1",
             "Sulfuro de oro 2",
             "Fosfato de hierro 3"});
-            this.cmb14.Location = new System.Drawing.Point(670, 303);
+            this.cmb14.Location = new System.Drawing.Point(670, 327);
             this.cmb14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb14.Name = "cmb14";
             this.cmb14.Size = new System.Drawing.Size(139, 24);
@@ -295,7 +295,7 @@
             "Sulfuro auroso",
             "Sulfuro aurico",
             "Fosfato de hierro"});
-            this.cmb9.Location = new System.Drawing.Point(670, 266);
+            this.cmb9.Location = new System.Drawing.Point(670, 290);
             this.cmb9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb9.Name = "cmb9";
             this.cmb9.Size = new System.Drawing.Size(139, 24);
@@ -311,7 +311,7 @@
             "Sulfuro de dioro",
             "Sulfuro de oro",
             "Bisfosfato de trihierro"});
-            this.cmb4.Location = new System.Drawing.Point(670, 225);
+            this.cmb4.Location = new System.Drawing.Point(670, 249);
             this.cmb4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb4.Name = "cmb4";
             this.cmb4.Size = new System.Drawing.Size(139, 24);
@@ -327,7 +327,7 @@
             "Sulfuro de oro 1 ",
             "Sulfuro de oro 2",
             "Fosfato de hierro 3"});
-            this.cmb15.Location = new System.Drawing.Point(815, 303);
+            this.cmb15.Location = new System.Drawing.Point(815, 327);
             this.cmb15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb15.Name = "cmb15";
             this.cmb15.Size = new System.Drawing.Size(137, 24);
@@ -343,7 +343,7 @@
             "Sulfuro auroso",
             "Sulfuro aurico",
             "Fosfato de hierro"});
-            this.cmb10.Location = new System.Drawing.Point(815, 266);
+            this.cmb10.Location = new System.Drawing.Point(815, 290);
             this.cmb10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb10.Name = "cmb10";
             this.cmb10.Size = new System.Drawing.Size(137, 24);
@@ -359,7 +359,7 @@
             "Sulfuro de dioro",
             "Sulfuro de oro",
             "Bisfosfato de trihierro"});
-            this.cmb5.Location = new System.Drawing.Point(815, 225);
+            this.cmb5.Location = new System.Drawing.Point(815, 249);
             this.cmb5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb5.Name = "cmb5";
             this.cmb5.Size = new System.Drawing.Size(137, 24);
@@ -370,7 +370,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label4.Location = new System.Drawing.Point(20, 121);
+            this.label4.Location = new System.Drawing.Point(20, 145);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(767, 20);
             this.label4.TabIndex = 26;
@@ -394,18 +394,18 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label8.Location = new System.Drawing.Point(553, 78);
+            this.label8.Location = new System.Drawing.Point(480, 97);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(254, 29);
+            this.label8.Size = new System.Drawing.Size(329, 29);
             this.label8.TabIndex = 41;
-            this.label8.Text = "Actividad 2 (2da Parte)";
+            this.label8.Text = "Set 1 - Actividad 2 (2da Parte)";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(227, 167);
+            this.pictureBox1.Location = new System.Drawing.Point(227, 191);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(152, 52);
@@ -416,7 +416,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(387, 167);
+            this.pictureBox2.Location = new System.Drawing.Point(387, 191);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(132, 52);
@@ -427,7 +427,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(526, 167);
+            this.pictureBox3.Location = new System.Drawing.Point(526, 191);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(138, 52);
@@ -438,7 +438,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(672, 167);
+            this.pictureBox4.Location = new System.Drawing.Point(672, 191);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(135, 52);
@@ -449,7 +449,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(817, 167);
+            this.pictureBox6.Location = new System.Drawing.Point(817, 191);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(135, 52);
@@ -461,7 +461,7 @@
             // 
             this.btnImagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
             this.btnImagen.Image = ((System.Drawing.Image)(resources.GetObject("btnImagen.Image")));
-            this.btnImagen.Location = new System.Drawing.Point(4, 350);
+            this.btnImagen.Location = new System.Drawing.Point(4, 374);
             this.btnImagen.Margin = new System.Windows.Forms.Padding(4);
             this.btnImagen.Name = "btnImagen";
             this.btnImagen.Size = new System.Drawing.Size(77, 74);
@@ -484,7 +484,7 @@
             this.panelAyuda.Controls.Add(this.label7);
             this.panelAyuda.Controls.Add(this.label6);
             this.panelAyuda.Controls.Add(this.label5);
-            this.panelAyuda.Location = new System.Drawing.Point(89, 352);
+            this.panelAyuda.Location = new System.Drawing.Point(89, 376);
             this.panelAyuda.Margin = new System.Windows.Forms.Padding(4);
             this.panelAyuda.Name = "panelAyuda";
             this.panelAyuda.Size = new System.Drawing.Size(516, 220);
@@ -629,7 +629,7 @@
             this.lblCantCorr.AutoSize = true;
             this.lblCantCorr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.lblCantCorr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.lblCantCorr.Location = new System.Drawing.Point(322, 588);
+            this.lblCantCorr.Location = new System.Drawing.Point(322, 612);
             this.lblCantCorr.Name = "lblCantCorr";
             this.lblCantCorr.Size = new System.Drawing.Size(40, 18);
             this.lblCantCorr.TabIndex = 65;
@@ -642,7 +642,7 @@
             this.lblResCor.AutoSize = true;
             this.lblResCor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.lblResCor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.lblResCor.Location = new System.Drawing.Point(12, 588);
+            this.lblResCor.Location = new System.Drawing.Point(12, 612);
             this.lblResCor.Name = "lblResCor";
             this.lblResCor.Size = new System.Drawing.Size(238, 18);
             this.lblResCor.TabIndex = 64;
@@ -664,7 +664,7 @@
             // 
             this.btnAyuda.AutoSize = true;
             this.btnAyuda.ForeColor = System.Drawing.Color.Black;
-            this.btnAyuda.Location = new System.Drawing.Point(817, 352);
+            this.btnAyuda.Location = new System.Drawing.Point(817, 376);
             this.btnAyuda.Name = "btnAyuda";
             this.btnAyuda.Size = new System.Drawing.Size(134, 30);
             this.btnAyuda.TabIndex = 17;
@@ -677,7 +677,7 @@
             // 
             this.btnVerificar.AutoSize = true;
             this.btnVerificar.ForeColor = System.Drawing.Color.Black;
-            this.btnVerificar.Location = new System.Drawing.Point(672, 350);
+            this.btnVerificar.Location = new System.Drawing.Point(672, 374);
             this.btnVerificar.Name = "btnVerificar";
             this.btnVerificar.Size = new System.Drawing.Size(137, 30);
             this.btnVerificar.TabIndex = 16;
@@ -692,7 +692,7 @@
             this.btnSiguiente.Enabled = false;
             this.btnSiguiente.ForeColor = System.Drawing.Color.Black;
             this.btnSiguiente.Image = global::TED_TP3.Properties.Resources.FlechasDerechaNegro;
-            this.btnSiguiente.Location = new System.Drawing.Point(672, 560);
+            this.btnSiguiente.Location = new System.Drawing.Point(672, 584);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(137, 44);
             this.btnSiguiente.TabIndex = 19;
@@ -706,7 +706,7 @@
             this.btnVolver.AutoSize = true;
             this.btnVolver.ForeColor = System.Drawing.Color.Black;
             this.btnVolver.Image = global::TED_TP3.Properties.Resources.VolverNegro;
-            this.btnVolver.Location = new System.Drawing.Point(815, 560);
+            this.btnVolver.Location = new System.Drawing.Point(815, 584);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(136, 44);
             this.btnVolver.TabIndex = 20;
@@ -719,7 +719,7 @@
             // 
             this.btnOcultarAyuda.AutoSize = true;
             this.btnOcultarAyuda.ForeColor = System.Drawing.Color.Black;
-            this.btnOcultarAyuda.Location = new System.Drawing.Point(817, 352);
+            this.btnOcultarAyuda.Location = new System.Drawing.Point(817, 376);
             this.btnOcultarAyuda.Name = "btnOcultarAyuda";
             this.btnOcultarAyuda.Size = new System.Drawing.Size(134, 30);
             this.btnOcultarAyuda.TabIndex = 18;
@@ -734,7 +734,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(974, 616);
+            this.ClientSize = new System.Drawing.Size(974, 645);
             this.Controls.Add(this.btnAyuda);
             this.Controls.Add(this.btnVerificar);
             this.Controls.Add(this.btnSiguiente);
