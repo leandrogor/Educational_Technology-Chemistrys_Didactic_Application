@@ -66,5 +66,11 @@ namespace TED_TP3
         {
             Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Prueba ventana = new Prueba();
+            ventana.ShowDialog();
+        }
     }
 }

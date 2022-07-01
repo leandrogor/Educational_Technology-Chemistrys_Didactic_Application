@@ -79,6 +79,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(242, 28);
             this.txtNombre.TabIndex = 1;
+            this.txtNombre.Text = "lean";
             // 
             // btnVolver
             // 
@@ -88,7 +89,7 @@
             this.btnVolver.Location = new System.Drawing.Point(669, 394);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
-            this.btnVolver.TabIndex = 3;
+            this.btnVolver.TabIndex = 2;
             this.btnVolver.Text = "Volver";
             this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVolver.UseVisualStyleBackColor = true;
@@ -103,7 +104,7 @@
             this.btnJugar.Location = new System.Drawing.Point(527, 278);
             this.btnJugar.Name = "btnJugar";
             this.btnJugar.Size = new System.Drawing.Size(124, 44);
-            this.btnJugar.TabIndex = 2;
+            this.btnJugar.TabIndex = 0;
             this.btnJugar.Text = "Jugar";
             this.btnJugar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnJugar.UseVisualStyleBackColor = true;

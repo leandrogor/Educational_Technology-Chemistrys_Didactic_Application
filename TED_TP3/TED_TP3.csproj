@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actividades\Actividad.cs" />
+    <Compile Include="Actividades\Set1Act2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actividades\Set1Act2_2.designer.cs">
+      <DependentUpon>Set1Act2_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Actividades\MainActividades.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,15 @@
     <Compile Include="Varios\CrearSolicitudEjercicio.Designer.cs">
       <DependentUpon>CrearSolicitudEjercicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Varios\Prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Varios\Prueba.Designer.cs">
+      <DependentUpon>Prueba.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Actividades\Set1Act2_2.resx">
+      <DependentUpon>Set1Act2_2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Actividades\MainActividades.resx">
       <DependentUpon>MainActividades.cs</DependentUpon>
     </EmbeddedResource>
@@ -186,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Varios\CrearSolicitudEjercicio.resx">
       <DependentUpon>CrearSolicitudEjercicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Varios\Prueba.resx">
+      <DependentUpon>Prueba.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

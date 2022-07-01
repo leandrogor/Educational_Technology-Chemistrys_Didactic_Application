@@ -85,7 +85,7 @@
             // 
             this.lblCantCorr.AutoSize = true;
             this.lblCantCorr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblCantCorr.Location = new System.Drawing.Point(254, 611);
+            this.lblCantCorr.Location = new System.Drawing.Point(254, 598);
             this.lblCantCorr.Name = "lblCantCorr";
             this.lblCantCorr.Size = new System.Drawing.Size(40, 18);
             this.lblCantCorr.TabIndex = 63;
@@ -97,7 +97,7 @@
             // 
             this.lblResCor.AutoSize = true;
             this.lblResCor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblResCor.Location = new System.Drawing.Point(12, 611);
+            this.lblResCor.Location = new System.Drawing.Point(12, 598);
             this.lblResCor.Name = "lblResCor";
             this.lblResCor.Size = new System.Drawing.Size(238, 18);
             this.lblResCor.TabIndex = 62;
@@ -108,10 +108,9 @@
             // btnSiguiente
             // 
             this.btnSiguiente.AutoSize = true;
-            this.btnSiguiente.Enabled = false;
             this.btnSiguiente.ForeColor = System.Drawing.Color.Black;
             this.btnSiguiente.Image = global::TED_TP3.Properties.Resources.FlechasDerechaNegro;
-            this.btnSiguiente.Location = new System.Drawing.Point(741, 585);
+            this.btnSiguiente.Location = new System.Drawing.Point(741, 572);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(124, 44);
             this.btnSiguiente.TabIndex = 12;
@@ -125,7 +124,7 @@
             this.btnVolver.AutoSize = true;
             this.btnVolver.ForeColor = System.Drawing.Color.Black;
             this.btnVolver.Image = global::TED_TP3.Properties.Resources.VolverNegro;
-            this.btnVolver.Location = new System.Drawing.Point(885, 585);
+            this.btnVolver.Location = new System.Drawing.Point(885, 572);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
             this.btnVolver.TabIndex = 13;
@@ -468,7 +467,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1030, 645);
+            this.ClientSize = new System.Drawing.Size(1030, 633);
             this.Controls.Add(this.btnAyuda);
             this.Controls.Add(this.btnVerificar);
             this.Controls.Add(this.btnVideo);

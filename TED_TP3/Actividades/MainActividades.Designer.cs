@@ -81,7 +81,7 @@
             this.btnVolver.Location = new System.Drawing.Point(672, 348);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
-            this.btnVolver.TabIndex = 6;
+            this.btnVolver.TabIndex = 4;
             this.btnVolver.Text = "Volver";
             this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVolver.UseVisualStyleBackColor = true;
@@ -104,7 +104,7 @@
             this.btnSet1.Location = new System.Drawing.Point(101, 255);
             this.btnSet1.Name = "btnSet1";
             this.btnSet1.Size = new System.Drawing.Size(162, 44);
-            this.btnSet1.TabIndex = 13;
+            this.btnSet1.TabIndex = 1;
             this.btnSet1.Text = "Set de actividades 1";
             this.btnSet1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSet1.UseVisualStyleBackColor = true;
@@ -117,7 +117,7 @@
             this.btnSet2.Location = new System.Drawing.Point(314, 255);
             this.btnSet2.Name = "btnSet2";
             this.btnSet2.Size = new System.Drawing.Size(162, 44);
-            this.btnSet2.TabIndex = 14;
+            this.btnSet2.TabIndex = 2;
             this.btnSet2.Text = "Set de actividades 2";
             this.btnSet2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSet2.UseVisualStyleBackColor = true;
@@ -130,7 +130,7 @@
             this.btnSet3.Location = new System.Drawing.Point(528, 255);
             this.btnSet3.Name = "btnSet3";
             this.btnSet3.Size = new System.Drawing.Size(162, 44);
-            this.btnSet3.TabIndex = 15;
+            this.btnSet3.TabIndex = 3;
             this.btnSet3.Text = "Set de actividades 3";
             this.btnSet3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSet3.UseVisualStyleBackColor = true;

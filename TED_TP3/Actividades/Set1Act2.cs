@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prueba2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,9 +28,9 @@ namespace TED_TP3.Actividades
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Volviendo a set de actividades 1...");
-            set1.habilitarAct3();
+            Set1Act2_2 ventana = new Set1Act2_2();
             Close();
+            ventana.Show();
         }
 
         private void btnVideo_Click(object sender, EventArgs e)
@@ -163,6 +164,7 @@ namespace TED_TP3.Actividades
                 MessageBox.Show("Ya puede avanzar a la siguiente actividad!", "Tarea completada!",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 btnSiguiente.Enabled = true;
+                set1.habilitarAct3();
                 btnSiguiente.Focus();
             }
             else
