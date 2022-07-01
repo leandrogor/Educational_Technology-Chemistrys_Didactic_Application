@@ -121,7 +121,7 @@
   <data name="btnVideo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAAjpJREFUWEftlr9PFFEQxx+lDcUV0uze7XsPpbCAIJgoBx29hcklQEdDkEDhURAr
+        vgAADr4B6kKxwAAAAjpJREFUWEftlr9PFFEQxx+lDcUV0uze7XsPpbCAIJgoBx29hcklQEdDkEDhURAr
         Ov0HtLfT+BdoT6BB3LdnhBAIZwgHncnx4zA4zOwNgfMm60VvE4r7Jt/sbfY785l9b7O3qqOObq1CrXtC
         m32Ix/HQ5p46GxQiYybwfCrJlHFBUKAaPB//ZrODeOzhtsn64vsPQqPfOasPnTXQXutD6k0MxjUqvluj
         j+Xi9pkYxGLstZwJPkkFaTg0wWfG1rWayXQ7o39J4VSMLGIyHu8+m30iBtM0MhmPA+ATLoYE4x7C97FR
@@ -140,7 +140,7 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZQAAAFhCAYAAABXmlwKAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAfXdJREFUeF7t3QecfEWVL/AVs5hAFJSkZFCCIIgBUbKo5CiooAQRBEFAlCCgohIM
+        vQAADr0BR/uQrQAAfXdJREFUeF7t3QecfEWVL/AVs5hAFJSkZFCCIIgBUbKo5CiooAQRBEFAlCCgohIM
         gASJggIKYgIUTIgRM6bVNewz7OqaV911fW/fu2+/xZy2/s3tCT09PdM95/f51Gem69YNffuc+p1zqurU
         PzSJRCKRSAwASSiJRCKRGAiSUBKJRCIxECShJBKJRGIgSEJJJBKJxECQhJJIJBKJgSAJJZFIJBIDQRJK
         IpFIJAaCJJREIpFIDARJKIlEIpEYCJJQEolEIjEQJKEkEolEYiBIQkkkEonEQJCEkkgkEomBYCwI5d/+
@@ -681,7 +681,7 @@
   <data name="btnImagen.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAACpVJREFUaEPNmnlw1OUZx39RQ+nUWtpOdTq9xsr0n9YqVEVAETUSnVZbnY5n6+BR
+        vgAADr4B6kKxwAAACpVJREFUaEPNmnlw1OUZx39RQ+nUWtpOdTq9xsr0n9YqVEVAETUSnVZbnY5n6+BR
         QLzwQkDBswGsNIRICIioQQST3SQEkIQce2STbJLNb3d/e+9mr+wme+XYI9kLsk+/724CqB3/6DRZ3pnv
         ZJNs3nk++9y74f5fR6n88jKNpuN3Vmvf3Q6H8KzDYdjqdBoqp2W360ttNs1LZrPqfr2+8wY893IiKpj6
         8/wcojcu0um6ljuc+oN+v8vkD7gNXq+ty27XnjBbeTGMrTaZeo9YbbzY7tCdxO8Ufr/TgOe6BwYsDvy+

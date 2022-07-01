@@ -30,8 +30,8 @@ namespace TED_TP3.Actividades
             Actividad actividad1 = new Actividad("Act1", "¿Cómo podemos formar Cloruro de sodio?", "Na1Cl1", "Más conocida como sal de mesa, está compuesto por dos elementos.");
             Actividad actividad2 = new Actividad("Act2", "¿Cómo podemos formar Nitrato de potasio?", "K1N1O3", "Además del potasio, contiene nitrógeno y oxígeno.");
             Actividad actividad3 = new Actividad("Act3", "¿Cómo podemos formar Bisulfato de sodio?", "Na1H1S1O4", "Es la sal de sodio del anión bisulfato.");
-            Actividad actividad4 = new Actividad("Act4", "¿Cómo podemos formar bicarbonato de sodio?", "Na1H1C1O3", "Es un antiácido usado para aliviar la pirosis.");
-            Actividad actividad5 = new Actividad("Act5", "¿Cómo podemos formar nitrato básico de cobre (II)?", "CuN2O6", "Además de cobre, contiene nitrógeno y oxígeno.");
+            Actividad actividad4 = new Actividad("Act4", "¿Cómo podemos formar Bicarbonato de sodio?", "Na1H1C1O3", "Es un antiácido usado para aliviar la pirosis.");
+            Actividad actividad5 = new Actividad("Act5", "¿Cómo podemos formar Nitrato básico de cobre (II)?", "Cu1N2O6", "Además de cobre, contiene nitrógeno y oxígeno.");
 
             activiades.Add(actividad1);
             activiades.Add(actividad2);

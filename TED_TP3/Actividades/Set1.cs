@@ -46,8 +46,11 @@ namespace TED_TP3.Actividades
 
         private void btnAct3_Click(object sender, EventArgs e)
         {
-            Set1Act3 ventana = new Set1Act3(this);
-            ventana.ShowDialog();
+            MessageBox.Show("Desarrollo de actividad 3...");
+            habilitarAct4();
+            btnAct4.Focus();
+            //Set1Act3 ventana = new Set1Act3(this);
+            //ventana.ShowDialog();
         }
 
         public void habilitarAct4()

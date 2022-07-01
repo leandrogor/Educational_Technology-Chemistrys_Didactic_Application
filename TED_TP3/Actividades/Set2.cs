@@ -27,8 +27,11 @@ namespace TED_TP3.Actividades
 
         private void btnAct1_Click(object sender, EventArgs e)
         {
-            Set2Act1 ventana = new Set2Act1(this);
-            ventana.ShowDialog();
+            MessageBox.Show("Desarrollo de actividad 1...");
+            habilitarAct2();
+            btnAct2.Focus();
+            //Set2Act1 ventana = new Set2Act1(this);
+            //ventana.ShowDialog();
         }
 
         public void habilitarAct2()

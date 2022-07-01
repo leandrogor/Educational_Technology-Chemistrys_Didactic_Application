@@ -689,6 +689,7 @@
             // btnSiguiente
             // 
             this.btnSiguiente.AutoSize = true;
+            this.btnSiguiente.Enabled = false;
             this.btnSiguiente.ForeColor = System.Drawing.Color.Black;
             this.btnSiguiente.Image = global::TED_TP3.Properties.Resources.FlechasDerechaNegro;
             this.btnSiguiente.Location = new System.Drawing.Point(672, 560);

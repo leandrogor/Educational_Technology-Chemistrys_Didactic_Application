@@ -30,26 +30,33 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Set2Act3));
             this.label8 = new System.Windows.Forms.Label();
-            this.cantErrores = new System.Windows.Forms.Label();
+            this.lblCantErrores = new System.Windows.Forms.Label();
             this.lblCantCorr = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblCor = new System.Windows.Forms.Label();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnVolver = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblPregunta = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.button1 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.btnHabilitarPanel = new System.Windows.Forms.Button();
+            this.p1 = new System.Windows.Forms.CheckBox();
+            this.p2 = new System.Windows.Forms.CheckBox();
+            this.p3 = new System.Windows.Forms.CheckBox();
+            this.p4 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.r4 = new System.Windows.Forms.Label();
+            this.r3 = new System.Windows.Forms.Label();
+            this.r2 = new System.Windows.Forms.Label();
+            this.r1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.p6 = new System.Windows.Forms.CheckBox();
+            this.p5 = new System.Windows.Forms.CheckBox();
+            this.r6 = new System.Windows.Forms.Label();
+            this.r5 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lblNoCor = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -65,23 +72,23 @@
             this.label8.Text = "Actividad 3";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // cantErrores
+            // lblCantErrores
             // 
-            this.cantErrores.AutoSize = true;
-            this.cantErrores.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.cantErrores.Location = new System.Drawing.Point(371, 468);
-            this.cantErrores.Name = "cantErrores";
-            this.cantErrores.Size = new System.Drawing.Size(66, 18);
-            this.cantErrores.TabIndex = 91;
-            this.cantErrores.Text = "(errores)";
-            this.cantErrores.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cantErrores.Visible = false;
+            this.lblCantErrores.AutoSize = true;
+            this.lblCantErrores.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblCantErrores.Location = new System.Drawing.Point(396, 452);
+            this.lblCantErrores.Name = "lblCantErrores";
+            this.lblCantErrores.Size = new System.Drawing.Size(40, 18);
+            this.lblCantErrores.TabIndex = 91;
+            this.lblCantErrores.Text = "(nro)";
+            this.lblCantErrores.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCantErrores.Visible = false;
             // 
             // lblCantCorr
             // 
             this.lblCantCorr.AutoSize = true;
             this.lblCantCorr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.lblCantCorr.Location = new System.Drawing.Point(254, 468);
+            this.lblCantCorr.Location = new System.Drawing.Point(254, 452);
             this.lblCantCorr.Name = "lblCantCorr";
             this.lblCantCorr.Size = new System.Drawing.Size(40, 18);
             this.lblCantCorr.TabIndex = 90;
@@ -89,17 +96,17 @@
             this.lblCantCorr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblCantCorr.Visible = false;
             // 
-            // label7
+            // lblCor
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label7.Location = new System.Drawing.Point(12, 468);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(238, 18);
-            this.label7.TabIndex = 89;
-            this.label7.Text = "Cantidad de respuestas correctas: ";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label7.Visible = false;
+            this.lblCor.AutoSize = true;
+            this.lblCor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblCor.Location = new System.Drawing.Point(12, 452);
+            this.lblCor.Name = "lblCor";
+            this.lblCor.Size = new System.Drawing.Size(238, 18);
+            this.lblCor.TabIndex = 89;
+            this.lblCor.Text = "Cantidad de respuestas correctas: ";
+            this.lblCor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCor.Visible = false;
             // 
             // btnSiguiente
             // 
@@ -107,7 +114,7 @@
             this.btnSiguiente.Enabled = false;
             this.btnSiguiente.ForeColor = System.Drawing.Color.Black;
             this.btnSiguiente.Image = global::TED_TP3.Properties.Resources.FlechasDerechaNegro;
-            this.btnSiguiente.Location = new System.Drawing.Point(556, 439);
+            this.btnSiguiente.Location = new System.Drawing.Point(771, 440);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(124, 44);
             this.btnSiguiente.TabIndex = 84;
@@ -121,7 +128,7 @@
             this.btnVolver.AutoSize = true;
             this.btnVolver.ForeColor = System.Drawing.Color.Black;
             this.btnVolver.Image = global::TED_TP3.Properties.Resources.VolverNegro;
-            this.btnVolver.Location = new System.Drawing.Point(700, 439);
+            this.btnVolver.Location = new System.Drawing.Point(915, 440);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
             this.btnVolver.TabIndex = 85;
@@ -133,7 +140,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TED_TP3.Properties.Resources.JugarBlancoGrande;
-            this.pictureBox1.Location = new System.Drawing.Point(725, 14);
+            this.pictureBox1.Location = new System.Drawing.Point(903, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(132, 100);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -170,131 +177,228 @@
             this.webBrowser1.Size = new System.Drawing.Size(447, 280);
             this.webBrowser1.TabIndex = 93;
             // 
-            // button1
+            // btnHabilitarPanel
             // 
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(510, 116);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 26);
-            this.button1.TabIndex = 94;
-            this.button1.Text = "Listo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnHabilitarPanel.ForeColor = System.Drawing.Color.Black;
+            this.btnHabilitarPanel.Location = new System.Drawing.Point(510, 116);
+            this.btnHabilitarPanel.Name = "btnHabilitarPanel";
+            this.btnHabilitarPanel.Size = new System.Drawing.Size(125, 26);
+            this.btnHabilitarPanel.TabIndex = 0;
+            this.btnHabilitarPanel.Text = "Ya vi el video";
+            this.btnHabilitarPanel.UseVisualStyleBackColor = true;
+            this.btnHabilitarPanel.Click += new System.EventHandler(this.btnHabilitarPanel_Click);
             // 
-            // checkBox1
+            // p1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(15, 25);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(109, 24);
-            this.checkBox1.TabIndex = 95;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.p1.AutoSize = true;
+            this.p1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.p1.Location = new System.Drawing.Point(16, 63);
+            this.p1.Name = "p1";
+            this.p1.Size = new System.Drawing.Size(226, 20);
+            this.p1.TabIndex = 1;
+            this.p1.Text = "Reducir el uso del coche privado";
+            this.p1.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // p2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(15, 55);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(109, 24);
-            this.checkBox2.TabIndex = 96;
-            this.checkBox2.Text = "checkBox2";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.p2.AutoSize = true;
+            this.p2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.p2.Location = new System.Drawing.Point(16, 90);
+            this.p2.Name = "p2";
+            this.p2.Size = new System.Drawing.Size(146, 20);
+            this.p2.TabIndex = 2;
+            this.p2.Text = "Consumir sin límites";
+            this.p2.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // p3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(15, 85);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(109, 24);
-            this.checkBox3.TabIndex = 97;
-            this.checkBox3.Text = "checkBox3";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.p3.AutoSize = true;
+            this.p3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.p3.Location = new System.Drawing.Point(16, 121);
+            this.p3.Name = "p3";
+            this.p3.Size = new System.Drawing.Size(193, 20);
+            this.p3.TabIndex = 3;
+            this.p3.Text = "Ajustar termostato 2º- en inv";
+            this.p3.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // p4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(15, 115);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(109, 24);
-            this.checkBox4.TabIndex = 98;
-            this.checkBox4.Text = "checkBox4";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.p4.AutoSize = true;
+            this.p4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.p4.Location = new System.Drawing.Point(16, 150);
+            this.p4.Name = "p4";
+            this.p4.Size = new System.Drawing.Size(120, 20);
+            this.p4.TabIndex = 4;
+            this.p4.Text = "Plantar árboles";
+            this.p4.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.checkBox4);
-            this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.checkBox2);
-            this.panel1.Controls.Add(this.checkBox3);
-            this.panel1.Location = new System.Drawing.Point(510, 148);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.r6);
+            this.panel1.Controls.Add(this.r5);
+            this.panel1.Controls.Add(this.p6);
+            this.panel1.Controls.Add(this.p5);
+            this.panel1.Controls.Add(this.r4);
+            this.panel1.Controls.Add(this.r3);
+            this.panel1.Controls.Add(this.r2);
+            this.panel1.Controls.Add(this.r1);
+            this.panel1.Controls.Add(this.p4);
+            this.panel1.Controls.Add(this.p1);
+            this.panel1.Controls.Add(this.p2);
+            this.panel1.Controls.Add(this.p3);
+            this.panel1.Location = new System.Drawing.Point(491, 148);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(306, 280);
+            this.panel1.Size = new System.Drawing.Size(540, 280);
             this.panel1.TabIndex = 103;
+            this.panel1.Visible = false;
             // 
-            // label4
+            // r4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(152, 115);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
-            this.label4.TabIndex = 106;
-            this.label4.Text = "label4";
+            this.r4.AutoSize = true;
+            this.r4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.r4.Location = new System.Drawing.Point(266, 152);
+            this.r4.Name = "r4";
+            this.r4.Size = new System.Drawing.Size(247, 16);
+            this.r4.TabIndex = 106;
+            this.r4.Text = "Excelente! Los árboles absorbén el CO2";
+            this.r4.Visible = false;
             // 
-            // label3
+            // r3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(152, 86);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
-            this.label3.TabIndex = 105;
-            this.label3.Text = "label3";
+            this.r3.AutoSize = true;
+            this.r3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.r3.Location = new System.Drawing.Point(266, 123);
+            this.r3.Name = "r3";
+            this.r3.Size = new System.Drawing.Size(230, 16);
+            this.r3.TabIndex = 105;
+            this.r3.Text = "Muy bien! Eso reduciría el uso de gas";
+            this.r3.Visible = false;
             // 
-            // label2
+            // r2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(152, 55);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
-            this.label2.TabIndex = 104;
-            this.label2.Text = "label2";
+            this.r2.AutoSize = true;
+            this.r2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.r2.Location = new System.Drawing.Point(266, 92);
+            this.r2.Name = "r2";
+            this.r2.Size = new System.Drawing.Size(251, 16);
+            this.r2.TabIndex = 104;
+            this.r2.Text = "No che, promover el consumo sostenible";
+            this.r2.Visible = false;
             // 
-            // label1
+            // r1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(152, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
-            this.label1.TabIndex = 103;
-            this.label1.Text = "label1";
+            this.r1.AutoSize = true;
+            this.r1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.r1.Location = new System.Drawing.Point(266, 65);
+            this.r1.Name = "r1";
+            this.r1.Size = new System.Drawing.Size(207, 16);
+            this.r1.TabIndex = 103;
+            this.r1.Text = "Así es, aprovechando los medios";
+            this.r1.Visible = false;
             // 
             // button2
             // 
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(604, 116);
+            this.button2.Location = new System.Drawing.Point(46, 236);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 26);
-            this.button2.TabIndex = 104;
+            this.button2.Size = new System.Drawing.Size(97, 26);
+            this.button2.TabIndex = 7;
             this.button2.Text = "Verificar";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // p6
+            // 
+            this.p6.AutoSize = true;
+            this.p6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.p6.Location = new System.Drawing.Point(16, 207);
+            this.p6.Name = "p6";
+            this.p6.Size = new System.Drawing.Size(227, 20);
+            this.p6.TabIndex = 6;
+            this.p6.Text = "Apoyar a grandes prod agrícolas";
+            this.p6.UseVisualStyleBackColor = true;
+            // 
+            // p5
+            // 
+            this.p5.AutoSize = true;
+            this.p5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.p5.Location = new System.Drawing.Point(16, 177);
+            this.p5.Name = "p5";
+            this.p5.Size = new System.Drawing.Size(243, 20);
+            this.p5.TabIndex = 5;
+            this.p5.Text = "Evitar uso de bicicletas o caminatas";
+            this.p5.UseVisualStyleBackColor = true;
+            // 
+            // r6
+            // 
+            this.r6.AutoSize = true;
+            this.r6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.r6.Location = new System.Drawing.Point(266, 209);
+            this.r6.Name = "r6";
+            this.r6.Size = new System.Drawing.Size(267, 16);
+            this.r6.TabIndex = 110;
+            this.r6.Text = "No. Son la principal causa de deforestación";
+            this.r6.Visible = false;
+            // 
+            // r5
+            // 
+            this.r5.AutoSize = true;
+            this.r5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.r5.Location = new System.Drawing.Point(266, 179);
+            this.r5.Name = "r5";
+            this.r5.Size = new System.Drawing.Size(178, 16);
+            this.r5.TabIndex = 109;
+            this.r5.Text = "No, su uso es lo más óptimo!";
+            this.r5.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label9.Location = new System.Drawing.Point(12, 8);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(295, 20);
+            this.label9.TabIndex = 111;
+            this.label9.Text = "¿Cuales medidas crees que ayudarían";
+            // 
+            // lblNoCor
+            // 
+            this.lblNoCor.AutoSize = true;
+            this.lblNoCor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lblNoCor.Location = new System.Drawing.Point(300, 452);
+            this.lblNoCor.Name = "lblNoCor";
+            this.lblNoCor.Size = new System.Drawing.Size(90, 18);
+            this.lblNoCor.TabIndex = 104;
+            this.lblNoCor.Text = "Incorrectas: ";
+            this.lblNoCor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNoCor.Visible = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.label11.Location = new System.Drawing.Point(13, 28);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(327, 20);
+            this.label11.TabIndex = 112;
+            this.label11.Text = "a reducir los gases de efecto invernadero?";
             // 
             // Set2Act3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(869, 496);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1047, 496);
+            this.Controls.Add(this.lblNoCor);
+            this.Controls.Add(this.btnHabilitarPanel);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.cantErrores);
+            this.Controls.Add(this.lblCantErrores);
             this.Controls.Add(this.lblCantCorr);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblCor);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.pictureBox1);
@@ -320,25 +424,32 @@
         #endregion
 
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label cantErrores;
+        private System.Windows.Forms.Label lblCantErrores;
         private System.Windows.Forms.Label lblCantCorr;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblCor;
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblPregunta;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Button btnHabilitarPanel;
+        private System.Windows.Forms.CheckBox p1;
+        private System.Windows.Forms.CheckBox p2;
+        private System.Windows.Forms.CheckBox p3;
+        private System.Windows.Forms.CheckBox p4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label r4;
+        private System.Windows.Forms.Label r3;
+        private System.Windows.Forms.Label r2;
+        private System.Windows.Forms.Label r1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label r6;
+        private System.Windows.Forms.Label r5;
+        private System.Windows.Forms.CheckBox p6;
+        private System.Windows.Forms.CheckBox p5;
+        private System.Windows.Forms.Label lblNoCor;
     }
 }

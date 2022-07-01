@@ -108,6 +108,7 @@
             // btnSiguiente
             // 
             this.btnSiguiente.AutoSize = true;
+            this.btnSiguiente.Enabled = false;
             this.btnSiguiente.ForeColor = System.Drawing.Color.Black;
             this.btnSiguiente.Image = global::TED_TP3.Properties.Resources.FlechasDerechaNegro;
             this.btnSiguiente.Location = new System.Drawing.Point(741, 572);
@@ -251,7 +252,7 @@
             // 
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label10.Location = new System.Drawing.Point(480, 268);
+            this.label10.Location = new System.Drawing.Point(459, 267);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(23, 18);
             this.label10.TabIndex = 84;
@@ -260,7 +261,7 @@
             // Respuesta8
             // 
             this.Respuesta8.ForeColor = System.Drawing.Color.Black;
-            this.Respuesta8.Location = new System.Drawing.Point(885, 343);
+            this.Respuesta8.Location = new System.Drawing.Point(809, 340);
             this.Respuesta8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Respuesta8.Name = "Respuesta8";
             this.Respuesta8.Size = new System.Drawing.Size(128, 26);
@@ -271,7 +272,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label9.Location = new System.Drawing.Point(743, 343);
+            this.label9.Location = new System.Drawing.Point(681, 340);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(122, 18);
             this.label9.TabIndex = 81;
@@ -280,7 +281,7 @@
             // Respuesta7
             // 
             this.Respuesta7.ForeColor = System.Drawing.Color.Black;
-            this.Respuesta7.Location = new System.Drawing.Point(652, 342);
+            this.Respuesta7.Location = new System.Drawing.Point(590, 339);
             this.Respuesta7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Respuesta7.Name = "Respuesta7";
             this.Respuesta7.Size = new System.Drawing.Size(84, 26);
@@ -290,7 +291,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label1.Location = new System.Drawing.Point(713, 309);
+            this.label1.Location = new System.Drawing.Point(671, 308);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 20);
             this.label1.TabIndex = 79;
@@ -310,7 +311,7 @@
             // Respuesta6
             // 
             this.Respuesta6.ForeColor = System.Drawing.Color.Black;
-            this.Respuesta6.Location = new System.Drawing.Point(607, 305);
+            this.Respuesta6.Location = new System.Drawing.Point(565, 305);
             this.Respuesta6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Respuesta6.Name = "Respuesta6";
             this.Respuesta6.Size = new System.Drawing.Size(100, 26);
@@ -320,7 +321,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label6.Location = new System.Drawing.Point(565, 308);
+            this.label6.Location = new System.Drawing.Point(521, 308);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 20);
             this.label6.TabIndex = 76;
@@ -329,7 +330,7 @@
             // Respuesta5
             // 
             this.Respuesta5.ForeColor = System.Drawing.Color.Black;
-            this.Respuesta5.Location = new System.Drawing.Point(459, 305);
+            this.Respuesta5.Location = new System.Drawing.Point(415, 305);
             this.Respuesta5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Respuesta5.Name = "Respuesta5";
             this.Respuesta5.Size = new System.Drawing.Size(100, 26);
@@ -341,14 +342,14 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
             this.label5.Location = new System.Drawing.Point(20, 305);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(433, 23);
+            this.label5.Size = new System.Drawing.Size(389, 23);
             this.label5.TabIndex = 74;
             this.label5.Text = "3-Este primero es una combinación que se hace entre un";
             // 
             // Respuesta4
             // 
             this.Respuesta4.ForeColor = System.Drawing.Color.Black;
-            this.Respuesta4.Location = new System.Drawing.Point(509, 268);
+            this.Respuesta4.Location = new System.Drawing.Point(488, 267);
             this.Respuesta4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Respuesta4.Name = "Respuesta4";
             this.Respuesta4.Size = new System.Drawing.Size(129, 26);
@@ -357,7 +358,7 @@
             // Respuesta3
             // 
             this.Respuesta3.ForeColor = System.Drawing.Color.Black;
-            this.Respuesta3.Location = new System.Drawing.Point(344, 267);
+            this.Respuesta3.Location = new System.Drawing.Point(324, 264);
             this.Respuesta3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Respuesta3.Name = "Respuesta3";
             this.Respuesta3.Size = new System.Drawing.Size(129, 26);
@@ -369,7 +370,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
             this.label4.Location = new System.Drawing.Point(20, 267);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(332, 23);
+            this.label4.Size = new System.Drawing.Size(298, 23);
             this.label4.TabIndex = 71;
             this.label4.Text = "2-Las sales pueden ser clasificadas en dos:";
             // 
@@ -386,7 +387,7 @@
             // Respuesta2
             // 
             this.Respuesta2.ForeColor = System.Drawing.Color.Black;
-            this.Respuesta2.Location = new System.Drawing.Point(834, 210);
+            this.Respuesta2.Location = new System.Drawing.Point(835, 207);
             this.Respuesta2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Respuesta2.Name = "Respuesta2";
             this.Respuesta2.Size = new System.Drawing.Size(80, 26);
@@ -396,7 +397,7 @@
             // 
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label11.Location = new System.Drawing.Point(794, 211);
+            this.label11.Location = new System.Drawing.Point(789, 207);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(40, 18);
             this.label11.TabIndex = 68;
@@ -405,7 +406,7 @@
             // Respuesta1
             // 
             this.Respuesta1.ForeColor = System.Drawing.Color.Black;
-            this.Respuesta1.Location = new System.Drawing.Point(637, 210);
+            this.Respuesta1.Location = new System.Drawing.Point(632, 207);
             this.Respuesta1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Respuesta1.Name = "Respuesta1";
             this.Respuesta1.Size = new System.Drawing.Size(151, 26);
@@ -417,7 +418,7 @@
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
             this.label16.Location = new System.Drawing.Point(20, 210);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(700, 23);
+            this.label16.Size = new System.Drawing.Size(606, 23);
             this.label16.TabIndex = 66;
             this.label16.Text = "1-Las sales son compuestos inorgánicos que se obtienen a partir de la combinación" +
     " de un  ";

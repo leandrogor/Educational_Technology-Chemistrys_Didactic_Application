@@ -43,6 +43,7 @@
             // btnAct4
             // 
             this.btnAct4.AutoSize = true;
+            this.btnAct4.Enabled = false;
             this.btnAct4.ForeColor = System.Drawing.Color.Black;
             this.btnAct4.Location = new System.Drawing.Point(265, 266);
             this.btnAct4.Name = "btnAct4";
@@ -56,6 +57,7 @@
             // btnAct3
             // 
             this.btnAct3.AutoSize = true;
+            this.btnAct3.Enabled = false;
             this.btnAct3.ForeColor = System.Drawing.Color.Black;
             this.btnAct3.Location = new System.Drawing.Point(89, 266);
             this.btnAct3.Name = "btnAct3";
@@ -69,6 +71,7 @@
             // btnAct2
             // 
             this.btnAct2.AutoSize = true;
+            this.btnAct2.Enabled = false;
             this.btnAct2.ForeColor = System.Drawing.Color.Black;
             this.btnAct2.Location = new System.Drawing.Point(265, 170);
             this.btnAct2.Name = "btnAct2";

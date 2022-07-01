@@ -37,8 +37,152 @@ namespace TED_TP3.Actividades
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Desea verificar sus respuestas antes de ver las soluciones?", "Atención",
+            DialogResult result = MessageBox.Show("Desea verificar sus respuestas antes de ver las soluciones?", "Atención",
                 MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                int correctas = 0;
+                int incorrectas = 0;
+
+                if (p1.Checked)
+                {
+                    correctas += 1;
+                }
+                else
+                {
+                    incorrectas += 1;
+                }
+
+                if (p2.Checked == false)
+                {
+                    correctas += 1;
+                }
+                else
+                {
+                    incorrectas += 1;
+                }
+
+                if (p3.Checked)
+                {
+                    correctas += 1;
+                }
+                else
+                {
+                    incorrectas += 1;
+                }
+
+                if (p4.Checked)
+                {
+                    correctas += 1;
+                }
+                else
+                {
+                    incorrectas += 1;
+                }
+
+                if (p5.Checked == false)
+                {
+                    correctas += 1;
+                }
+                else
+                {
+                    incorrectas += 1;
+                }
+
+                if (p6.Checked == false)
+                {
+                    correctas += 1;
+                }
+                else
+                {
+                    incorrectas += 1;
+                }
+
+                lblCantCorr.Text = correctas.ToString();
+                lblCantErrores.Text = incorrectas.ToString();
+
+                lblCantCorr.Visible = true;
+                lblCantErrores.Visible = true;
+                lblCor.Visible = true;
+                lblNoCor.Visible = true;
+            }
+            else if (result == DialogResult.No)
+            {
+                if (p1.Checked)
+                {
+                    p1.ForeColor = Color.Green;
+                }
+                else
+                {
+                    p1.ForeColor = Color.Red;
+                }
+
+                if (p2.Checked == false)
+                {
+                    p2.ForeColor = Color.Green;
+                }
+                else
+                {
+                    p2.ForeColor = Color.Red;
+                }
+
+                if (p3.Checked)
+                {
+                    p3.ForeColor = Color.Green;
+                }
+                else
+                {
+                    p3.ForeColor = Color.Red;
+                }
+
+                if (p4.Checked)
+                {
+                    p4.ForeColor = Color.Green;
+                }
+                else
+                {
+                    p4.ForeColor = Color.Red;
+                }
+
+                if (p5.Checked == false)
+                {
+                    p5.ForeColor = Color.Green;
+                }
+                else
+                {
+                    p5.ForeColor = Color.Red;
+                }
+
+                if (p6.Checked == false)
+                {
+                    p6.ForeColor = Color.Green;
+                }
+                else
+                {
+                    p6.ForeColor = Color.Red;
+                }
+
+                r1.ForeColor = Color.Green;
+                r2.ForeColor = Color.Red;
+                r3.ForeColor = Color.Green;
+                r4.ForeColor = Color.Green;
+                r5.ForeColor = Color.Red;
+                r6.ForeColor = Color.Red;
+
+                r1.Visible = true;
+                r2.Visible = true;
+                r3.Visible = true;
+                r4.Visible = true;
+                r5.Visible = true;
+                r6.Visible = true;
+            }
+        }
+
+        private void btnHabilitarPanel_Click(object sender, EventArgs e)
+        {
+            btnHabilitarPanel.Visible = false;
+            panel1.Visible = true;
+            r1.Focus();
         }
     }
 }
