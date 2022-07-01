@@ -43,7 +43,6 @@
             // btnAct4
             // 
             this.btnAct4.AutoSize = true;
-            this.btnAct4.Enabled = false;
             this.btnAct4.ForeColor = System.Drawing.Color.Black;
             this.btnAct4.Location = new System.Drawing.Point(265, 266);
             this.btnAct4.Name = "btnAct4";

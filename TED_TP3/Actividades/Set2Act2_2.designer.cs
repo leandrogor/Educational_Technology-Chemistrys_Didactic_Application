@@ -48,21 +48,23 @@
             this.label15 = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnVideo = new System.Windows.Forms.Button();
+            this.btnImagen = new System.Windows.Forms.Button();
+            this.panelAyuda = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.otroNivel = new System.Windows.Forms.Button();
             this.lblCantCorr = new System.Windows.Forms.Label();
             this.lblResCor = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
+            this.btnAyuda = new System.Windows.Forms.Button();
+            this.btnVerificar = new System.Windows.Forms.Button();
+            this.btnSiguiente = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
+            this.btnOcultarAyuda = new System.Windows.Forms.Button();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.panelAyuda.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -70,18 +72,18 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label2.Location = new System.Drawing.Point(8, 76);
+            this.label2.Location = new System.Drawing.Point(11, 83);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(607, 25);
+            this.label2.Size = new System.Drawing.Size(434, 25);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Mire el video y seleccione una opcion/marque las opciones correctas";
+            this.label2.Text = "Mire el video y seleccione las opciones correctas";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label5.Location = new System.Drawing.Point(11, 120);
+            this.label5.Location = new System.Drawing.Point(13, 165);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(126, 17);
@@ -90,6 +92,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "temperatura",
@@ -97,17 +100,17 @@
             "lluvias",
             "puntitos",
             "plumas"});
-            this.comboBox1.Location = new System.Drawing.Point(141, 117);
+            this.comboBox1.Location = new System.Drawing.Point(143, 162);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(92, 25);
-            this.comboBox1.TabIndex = 5;
+            this.comboBox1.TabIndex = 2;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label6.Location = new System.Drawing.Point(240, 120);
+            this.label6.Location = new System.Drawing.Point(242, 165);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(493, 17);
@@ -118,7 +121,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label7.Location = new System.Drawing.Point(11, 150);
+            this.label7.Location = new System.Drawing.Point(13, 195);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(661, 17);
@@ -130,7 +133,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label8.Location = new System.Drawing.Point(12, 174);
+            this.label8.Location = new System.Drawing.Point(14, 219);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 17);
@@ -141,7 +144,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label9.Location = new System.Drawing.Point(12, 198);
+            this.label9.Location = new System.Drawing.Point(14, 243);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(70, 17);
@@ -150,6 +153,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "temperatura",
@@ -157,17 +161,17 @@
             "lluvias",
             "puntitos",
             "plumas"});
-            this.comboBox2.Location = new System.Drawing.Point(81, 195);
+            this.comboBox2.Location = new System.Drawing.Point(83, 240);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(92, 25);
-            this.comboBox2.TabIndex = 10;
+            this.comboBox2.TabIndex = 3;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label10.Location = new System.Drawing.Point(12, 228);
+            this.label10.Location = new System.Drawing.Point(14, 273);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(245, 17);
@@ -176,6 +180,7 @@
             // 
             // comboBox3
             // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "temperatura",
@@ -183,17 +188,17 @@
             "lluvias",
             "puntitos",
             "plumas"});
-            this.comboBox3.Location = new System.Drawing.Point(261, 225);
+            this.comboBox3.Location = new System.Drawing.Point(263, 270);
             this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(92, 25);
-            this.comboBox3.TabIndex = 12;
+            this.comboBox3.TabIndex = 4;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label11.Location = new System.Drawing.Point(13, 258);
+            this.label11.Location = new System.Drawing.Point(15, 303);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(126, 17);
@@ -202,6 +207,7 @@
             // 
             // comboBox4
             // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
             "temperatura",
@@ -209,17 +215,17 @@
             "lluvias",
             "puntitos",
             "plumas"});
-            this.comboBox4.Location = new System.Drawing.Point(141, 255);
+            this.comboBox4.Location = new System.Drawing.Point(143, 300);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(92, 25);
-            this.comboBox4.TabIndex = 14;
+            this.comboBox4.TabIndex = 5;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label12.Location = new System.Drawing.Point(240, 261);
+            this.label12.Location = new System.Drawing.Point(242, 306);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(236, 17);
@@ -230,7 +236,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label13.Location = new System.Drawing.Point(13, 290);
+            this.label13.Location = new System.Drawing.Point(15, 335);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(132, 17);
@@ -239,6 +245,7 @@
             // 
             // comboBox5
             // 
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
             "temperatura",
@@ -246,17 +253,17 @@
             "lluvias",
             "puntitos",
             "plumas"});
-            this.comboBox5.Location = new System.Drawing.Point(149, 287);
+            this.comboBox5.Location = new System.Drawing.Point(151, 332);
             this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(92, 25);
-            this.comboBox5.TabIndex = 17;
+            this.comboBox5.TabIndex = 6;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label14.Location = new System.Drawing.Point(245, 290);
+            this.label14.Location = new System.Drawing.Point(247, 335);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(210, 17);
@@ -267,7 +274,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label15.Location = new System.Drawing.Point(177, 198);
+            this.label15.Location = new System.Drawing.Point(179, 243);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(241, 17);
@@ -291,48 +298,49 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.label16.Location = new System.Drawing.Point(615, 79);
+            this.label16.Location = new System.Drawing.Point(484, 83);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(184, 29);
+            this.label16.Size = new System.Drawing.Size(254, 29);
             this.label16.TabIndex = 41;
-            this.label16.Text = "Actividad 1 Set3";
+            this.label16.Text = "Actividad 2 (2da Parte)";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button3
+            // btnVideo
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(78, 332);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 36);
-            this.button3.TabIndex = 42;
-            this.button3.Text = "VIDEO";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnVideo.ForeColor = System.Drawing.Color.Black;
+            this.btnVideo.Image = ((System.Drawing.Image)(resources.GetObject("btnVideo.Image")));
+            this.btnVideo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVideo.Location = new System.Drawing.Point(24, 116);
+            this.btnVideo.Name = "btnVideo";
+            this.btnVideo.Size = new System.Drawing.Size(90, 36);
+            this.btnVideo.TabIndex = 1;
+            this.btnVideo.Text = "VIDEO";
+            this.btnVideo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnVideo.UseVisualStyleBackColor = true;
+            this.btnVideo.Click += new System.EventHandler(this.btnVideo_Click);
             // 
-            // button7
+            // btnImagen
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(14, 332);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(58, 65);
-            this.button7.TabIndex = 45;
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnImagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
+            this.btnImagen.Image = ((System.Drawing.Image)(resources.GetObject("btnImagen.Image")));
+            this.btnImagen.Location = new System.Drawing.Point(499, 240);
+            this.btnImagen.Name = "btnImagen";
+            this.btnImagen.Size = new System.Drawing.Size(58, 65);
+            this.btnImagen.TabIndex = 45;
+            this.btnImagen.UseVisualStyleBackColor = false;
+            this.btnImagen.Visible = false;
             // 
-            // panel1
+            // panelAyuda
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(495, 174);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(305, 162);
-            this.panel1.TabIndex = 46;
+            this.panelAyuda.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panelAyuda.Controls.Add(this.pictureBox1);
+            this.panelAyuda.Controls.Add(this.label3);
+            this.panelAyuda.Controls.Add(this.label1);
+            this.panelAyuda.Location = new System.Drawing.Point(563, 240);
+            this.panelAyuda.Name = "panelAyuda";
+            this.panelAyuda.Size = new System.Drawing.Size(305, 162);
+            this.panelAyuda.TabIndex = 46;
+            this.panelAyuda.Visible = false;
             // 
             // pictureBox1
             // 
@@ -353,16 +361,6 @@
             this.label3.TabIndex = 44;
             this.label3.Text = resources.GetString("label3.Text");
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(226, 125);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(61, 22);
-            this.button4.TabIndex = 43;
-            this.button4.Text = "Cerrar";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -375,39 +373,12 @@
             this.label1.Text = "Ayuda";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(520, 353);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(127, 44);
-            this.button5.TabIndex = 47;
-            this.button5.Text = "Verificar";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // otroNivel
-            // 
-            this.otroNivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.otroNivel.ForeColor = System.Drawing.Color.Black;
-            this.otroNivel.Image = ((System.Drawing.Image)(resources.GetObject("otroNivel.Image")));
-            this.otroNivel.Location = new System.Drawing.Point(652, 353);
-            this.otroNivel.Name = "otroNivel";
-            this.otroNivel.Size = new System.Drawing.Size(147, 43);
-            this.otroNivel.TabIndex = 48;
-            this.otroNivel.Text = "Siguiente";
-            this.otroNivel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.otroNivel.UseVisualStyleBackColor = true;
-            // 
             // lblCantCorr
             // 
             this.lblCantCorr.AutoSize = true;
             this.lblCantCorr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.lblCantCorr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.lblCantCorr.Location = new System.Drawing.Point(320, 376);
+            this.lblCantCorr.Location = new System.Drawing.Point(283, 447);
             this.lblCantCorr.Name = "lblCantCorr";
             this.lblCantCorr.Size = new System.Drawing.Size(40, 18);
             this.lblCantCorr.TabIndex = 69;
@@ -420,7 +391,7 @@
             this.lblResCor.AutoSize = true;
             this.lblResCor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.lblResCor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
-            this.lblResCor.Location = new System.Drawing.Point(78, 376);
+            this.lblResCor.Location = new System.Drawing.Point(41, 447);
             this.lblResCor.Name = "lblResCor";
             this.lblResCor.Size = new System.Drawing.Size(238, 18);
             this.lblResCor.TabIndex = 68;
@@ -428,30 +399,101 @@
             this.lblResCor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblResCor.Visible = false;
             // 
-            // pictureBox2
+            // btnAyuda
             // 
-            this.pictureBox2.Image = global::TED_TP3.Properties.Resources.JugarBlancoGrande;
-            this.pictureBox2.Location = new System.Drawing.Point(714, 8);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(85, 68);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 70;
-            this.pictureBox2.TabStop = false;
+            this.btnAyuda.AutoSize = true;
+            this.btnAyuda.ForeColor = System.Drawing.Color.Black;
+            this.btnAyuda.Location = new System.Drawing.Point(235, 382);
+            this.btnAyuda.Name = "btnAyuda";
+            this.btnAyuda.Size = new System.Drawing.Size(120, 30);
+            this.btnAyuda.TabIndex = 8;
+            this.btnAyuda.Text = "Ayuda";
+            this.btnAyuda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAyuda.UseVisualStyleBackColor = true;
+            this.btnAyuda.Click += new System.EventHandler(this.btnAyuda_Click);
             // 
-            // Form5
+            // btnVerificar
+            // 
+            this.btnVerificar.AutoSize = true;
+            this.btnVerificar.ForeColor = System.Drawing.Color.Black;
+            this.btnVerificar.Location = new System.Drawing.Point(95, 382);
+            this.btnVerificar.Name = "btnVerificar";
+            this.btnVerificar.Size = new System.Drawing.Size(124, 30);
+            this.btnVerificar.TabIndex = 7;
+            this.btnVerificar.Text = "Verificar";
+            this.btnVerificar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnVerificar.UseVisualStyleBackColor = true;
+            this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
+            // 
+            // btnSiguiente
+            // 
+            this.btnSiguiente.AutoSize = true;
+            this.btnSiguiente.ForeColor = System.Drawing.Color.Black;
+            this.btnSiguiente.Image = global::TED_TP3.Properties.Resources.FlechasDerechaNegro;
+            this.btnSiguiente.Location = new System.Drawing.Point(610, 421);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(124, 44);
+            this.btnSiguiente.TabIndex = 10;
+            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSiguiente.UseVisualStyleBackColor = true;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.AutoSize = true;
+            this.btnVolver.ForeColor = System.Drawing.Color.Black;
+            this.btnVolver.Image = global::TED_TP3.Properties.Resources.VolverNegro;
+            this.btnVolver.Location = new System.Drawing.Point(754, 421);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(116, 44);
+            this.btnVolver.TabIndex = 11;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // btnOcultarAyuda
+            // 
+            this.btnOcultarAyuda.AutoSize = true;
+            this.btnOcultarAyuda.ForeColor = System.Drawing.Color.Black;
+            this.btnOcultarAyuda.Location = new System.Drawing.Point(235, 382);
+            this.btnOcultarAyuda.Name = "btnOcultarAyuda";
+            this.btnOcultarAyuda.Size = new System.Drawing.Size(120, 30);
+            this.btnOcultarAyuda.TabIndex = 9;
+            this.btnOcultarAyuda.Text = "Ocultar Ayuda";
+            this.btnOcultarAyuda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnOcultarAyuda.UseVisualStyleBackColor = true;
+            this.btnOcultarAyuda.Visible = false;
+            this.btnOcultarAyuda.Click += new System.EventHandler(this.btnOcultarAyuda_Click);
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::TED_TP3.Properties.Resources.JugarBlancoGrande;
+            this.pictureBox11.Location = new System.Drawing.Point(769, 22);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(124, 90);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 98;
+            this.pictureBox11.TabStop = false;
+            // 
+            // Set2Act2_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(812, 405);
-            this.Controls.Add(this.pictureBox2);
+            this.ClientSize = new System.Drawing.Size(905, 484);
+            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.btnAyuda);
+            this.Controls.Add(this.btnVerificar);
+            this.Controls.Add(this.btnSiguiente);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.btnOcultarAyuda);
             this.Controls.Add(this.lblCantCorr);
             this.Controls.Add(this.lblResCor);
-            this.Controls.Add(this.otroNivel);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.panelAyuda);
+            this.Controls.Add(this.btnImagen);
+            this.Controls.Add(this.btnVideo);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.label15);
@@ -472,14 +514,17 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(219)))), ((int)(((byte)(213)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form5";
+            this.Name = "Set2Act2_2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
-            this.Load += new System.EventHandler(this.Form5_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelAyuda.ResumeLayout(false);
+            this.panelAyuda.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -505,17 +550,19 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnVideo;
+        private System.Windows.Forms.Button btnImagen;
+        private System.Windows.Forms.Panel panelAyuda;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button otroNivel;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblCantCorr;
         private System.Windows.Forms.Label lblResCor;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnAyuda;
+        private System.Windows.Forms.Button btnVerificar;
+        private System.Windows.Forms.Button btnSiguiente;
+        private System.Windows.Forms.Button btnVolver;
+        private System.Windows.Forms.Button btnOcultarAyuda;
+        private System.Windows.Forms.PictureBox pictureBox11;
     }
 }

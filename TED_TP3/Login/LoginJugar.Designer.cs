@@ -89,7 +89,7 @@
             this.btnVolver.Location = new System.Drawing.Point(669, 394);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
-            this.btnVolver.TabIndex = 2;
+            this.btnVolver.TabIndex = 3;
             this.btnVolver.Text = "Volver";
             this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVolver.UseVisualStyleBackColor = true;

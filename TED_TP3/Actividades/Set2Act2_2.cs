@@ -18,38 +18,36 @@ namespace Prueba2
             InitializeComponent();
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            panel1.Visible = true;
-        }
-
-        private void Form5_Load(object sender, EventArgs e)
-        {
-            panel1.Visible = false;
-            otroNivel.Enabled = false;
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void btnVideo_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.youtube.com/watch?v=qwxptJvloio&t=161s");
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnAyuda_Click(object sender, EventArgs e)
         {
-            panel1.Visible = false;
+            btnAyuda.Visible = false;
+            btnImagen.Visible = true;
+            panelAyuda.Visible = true;
+            btnOcultarAyuda.Visible = true;
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnOcultarAyuda_Click(object sender, EventArgs e)
         {
-            int result = 0;
+            btnAyuda.Visible = true;
+            btnImagen.Visible = false;
+            panelAyuda.Visible = false;
+            btnOcultarAyuda.Visible = false;
+        }
+
+        private void btnVerificar_Click(object sender, EventArgs e)
+        {
+            int resultado = 0;
             if ((comboBox1.Text != ""))
             {
                 if (comboBox1.Text == "temperatura")
                 {
-
-                    result = result + 1;
+                    resultado = resultado + 1;
                     comboBox1.BackColor = Color.Green;
-
                 }
                 else
                 {
@@ -60,10 +58,8 @@ namespace Prueba2
             {
                 if (comboBox2.Text == "sin impurezas")
                 {
-
-                    result = result + 1;
+                    resultado = resultado + 1;
                     comboBox2.BackColor = Color.Green;
-
                 }
                 else
                 {
@@ -74,10 +70,8 @@ namespace Prueba2
             {
                 if (comboBox3.Text == "lluvias")
                 {
-
-                    result = result + 1;
+                    resultado = resultado + 1;
                     comboBox3.BackColor = Color.Green;
-
                 }
                 else
                 {
@@ -88,10 +82,8 @@ namespace Prueba2
             {
                 if (comboBox4.Text == "puntitos")
                 {
-
-                    result = result + 1;
+                    resultado = resultado + 1;
                     comboBox4.BackColor = Color.Green;
-
                 }
                 else
                 {
@@ -102,27 +94,25 @@ namespace Prueba2
             {
                 if (comboBox5.Text == "plumas")
                 {
-
-                    result = result + 1;
+                    resultado = resultado + 1;
                     comboBox5.BackColor = Color.Green;
-
                 }
                 else
                 {
                     comboBox5.BackColor = Color.Red;
                 }
             }
-            MessageBox.Show("Su resultado es: " + result, "Resultado final", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Su resultado es: " + resultado, "Resultado final", MessageBoxButtons.OK, MessageBoxIcon.Information);
             lblResCor.Visible = true;
-            lblCantCorr.Text = result.ToString();
+            lblCantCorr.Text = resultado.ToString();
             lblCantCorr.Visible = true;
 
-            if (result > 5)
+            if (resultado >= 4)
             {
                 MessageBox.Show("Ya puede avanzar a la siguiente actividad!", "Tarea completada!",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
-                otroNivel.Enabled = true;
-                otroNivel.Focus();
+                btnSiguiente.Enabled = true;
+                btnSiguiente.Focus();
             }
             else
             {
@@ -132,6 +122,15 @@ namespace Prueba2
             }
         }
 
-       
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Volviendo a set de actividades 2...");
+            Close();
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

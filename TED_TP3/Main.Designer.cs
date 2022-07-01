@@ -37,6 +37,8 @@
             this.btnCrear = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnCreditos = new System.Windows.Forms.Button();
+            this.btnComoUsar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,7 +72,7 @@
             this.btnAjustes.Location = new System.Drawing.Point(12, 473);
             this.btnAjustes.Name = "btnAjustes";
             this.btnAjustes.Size = new System.Drawing.Size(116, 44);
-            this.btnAjustes.TabIndex = 3;
+            this.btnAjustes.TabIndex = 5;
             this.btnAjustes.Text = "Ajustes";
             this.btnAjustes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAjustes.UseVisualStyleBackColor = true;
@@ -124,7 +126,7 @@
             this.btnSalir.Location = new System.Drawing.Point(878, 473);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(116, 44);
-            this.btnSalir.TabIndex = 4;
+            this.btnSalir.TabIndex = 6;
             this.btnSalir.Text = "Salir";
             this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -134,21 +136,51 @@
             // 
             this.button1.AutoSize = true;
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(147, 473);
+            this.button1.Location = new System.Drawing.Point(12, 423);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 44);
-            this.button1.TabIndex = 5;
+            this.button1.TabIndex = 0;
             this.button1.Text = "Prueba";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnCreditos
+            // 
+            this.btnCreditos.AutoSize = true;
+            this.btnCreditos.ForeColor = System.Drawing.Color.Black;
+            this.btnCreditos.Image = global::TED_TP3.Properties.Resources.InformacionNegro;
+            this.btnCreditos.Location = new System.Drawing.Point(134, 473);
+            this.btnCreditos.Name = "btnCreditos";
+            this.btnCreditos.Size = new System.Drawing.Size(116, 44);
+            this.btnCreditos.TabIndex = 3;
+            this.btnCreditos.Text = "Créditos";
+            this.btnCreditos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCreditos.UseVisualStyleBackColor = true;
+            this.btnCreditos.Click += new System.EventHandler(this.btnCreditos_Click);
+            // 
+            // btnComoUsar
+            // 
+            this.btnComoUsar.AutoSize = true;
+            this.btnComoUsar.ForeColor = System.Drawing.Color.Black;
+            this.btnComoUsar.Image = global::TED_TP3.Properties.Resources.PreguntaNegro;
+            this.btnComoUsar.Location = new System.Drawing.Point(740, 473);
+            this.btnComoUsar.Name = "btnComoUsar";
+            this.btnComoUsar.Size = new System.Drawing.Size(136, 44);
+            this.btnComoUsar.TabIndex = 4;
+            this.btnComoUsar.Text = "Cómo Usar";
+            this.btnComoUsar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnComoUsar.UseVisualStyleBackColor = true;
+            this.btnComoUsar.Click += new System.EventHandler(this.btnComoUsar_Click);
+            // 
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1006, 529);
+            this.Controls.Add(this.btnComoUsar);
+            this.Controls.Add(this.btnCreditos);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnCrear);
@@ -183,6 +215,8 @@
         private System.Windows.Forms.Button btnCrear;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCreditos;
+        private System.Windows.Forms.Button btnComoUsar;
     }
 }
 

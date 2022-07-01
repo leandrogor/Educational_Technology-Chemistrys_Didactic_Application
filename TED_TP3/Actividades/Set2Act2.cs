@@ -176,7 +176,9 @@ namespace Prueba2
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Work in progress...");
+            Set2Act2_2 ventana = new Set2Act2_2();
+            Close();
+            ventana.Show();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

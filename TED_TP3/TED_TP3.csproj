@@ -272,5 +272,11 @@
   <ItemGroup>
     <None Include="Resources\FlechasDerechaNegro.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PreguntaNegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InformacionNegro.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

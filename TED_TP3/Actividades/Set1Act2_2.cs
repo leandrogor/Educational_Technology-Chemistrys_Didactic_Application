@@ -237,5 +237,11 @@ namespace Prueba2
             btnOcultarAyuda.Visible = false;
             btnAyuda.Visible = true;
         }
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Volviendo a set de actividades 1...");
+            Close();
+        }
     }
 }
