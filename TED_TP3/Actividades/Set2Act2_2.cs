@@ -8,35 +8,43 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
-using TED_TP3.Actividades;
 
 namespace Prueba2
 {
-    public partial class Set2Act2 : Form
+    public partial class Set2Act2_2 : Form
     {
-        private Set2 set2;
-        public Set2Act2(Set2 set2)
+        public Set2Act2_2()
         {
             InitializeComponent();
-            this.set2 = set2;
         }
 
-        private void btnVideo_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = true;
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
+            otroNivel.Enabled = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.youtube.com/watch?v=qwxptJvloio&t=161s");
         }
 
-        private void btnNoticia_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            Process.Start("https://750.am/2021/01/14/el-cosito-del-clima-como-funciona-el-souvenir-preferido-de-las-personas-que-visitan-la-costa/");
+            panel1.Visible = false;
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             int result = 0;
             if ((comboBox1.Text != ""))
             {
-                if (comboBox1.Text == "vidrio")
+                if (comboBox1.Text == "temperatura")
                 {
 
                     result = result + 1;
@@ -50,7 +58,7 @@ namespace Prueba2
             }
             if ((comboBox2.Text != ""))
             {
-                if (comboBox2.Text == "nitrato de potasio")
+                if (comboBox2.Text == "sin impurezas")
                 {
 
                     result = result + 1;
@@ -64,7 +72,7 @@ namespace Prueba2
             }
             if ((comboBox3.Text != ""))
             {
-                if (comboBox3.Text == "cloruro de amonio")
+                if (comboBox3.Text == "lluvias")
                 {
 
                     result = result + 1;
@@ -78,7 +86,7 @@ namespace Prueba2
             }
             if ((comboBox4.Text != ""))
             {
-                if (comboBox4.Text == "azul")
+                if (comboBox4.Text == "puntitos")
                 {
 
                     result = result + 1;
@@ -92,7 +100,7 @@ namespace Prueba2
             }
             if ((comboBox5.Text != ""))
             {
-                if (comboBox5.Text == "violeta")
+                if (comboBox5.Text == "plumas")
                 {
 
                     result = result + 1;
@@ -104,20 +112,6 @@ namespace Prueba2
                     comboBox5.BackColor = Color.Red;
                 }
             }
-            if ((comboBox6.Text != ""))
-            {
-                if (comboBox6.Text == "rosado")
-                {
-
-                    result = result + 1;
-                    comboBox6.BackColor = Color.Green;
-
-                }
-                else
-                {
-                    comboBox6.BackColor = Color.Red;
-                }
-            }
             MessageBox.Show("Su resultado es: " + result, "Resultado final", MessageBoxButtons.OK, MessageBoxIcon.Information);
             lblResCor.Visible = true;
             lblCantCorr.Text = result.ToString();
@@ -127,6 +121,8 @@ namespace Prueba2
             {
                 MessageBox.Show("Ya puede avanzar a la siguiente actividad!", "Tarea completada!",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
+                otroNivel.Enabled = true;
+                otroNivel.Focus();
             }
             else
             {
@@ -136,37 +132,6 @@ namespace Prueba2
             }
         }
 
-        private void btnAyuda_Click(object sender, EventArgs e)
-        {
-            var point = new Point();
-            point.X = Location.X;
-            point.Y = Location.Y - 100;
-            Location = point;
-
-            Size = new Size(Size.Width, 730);
-            btnSiguiente.Visible = false;
-            btnVolver.Visible = false;
-            btnAyuda.Visible = false;
-
-            btnImagen.Visible = true;
-            panelAyuda.Visible = true;
-            btnOcultarAyuda.Visible = true;
-        }
-
-        private void btnOcultarAyuda_Click(object sender, EventArgs e)
-        {
-            var point = new Point();
-            point.X = Location.X;
-            point.Y = Location.Y + 100;
-            Location = point;
-            Size = new Size(Size.Width, 487);
-            btnSiguiente.Visible = true;
-            btnVolver.Visible = true;
-            btnAyuda.Visible = true;
-
-            btnImagen.Visible = false;
-            panelAyuda.Visible = false;
-            btnOcultarAyuda.Visible = false;
-        }
+       
     }
 }

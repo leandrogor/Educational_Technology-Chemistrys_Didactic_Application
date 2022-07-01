@@ -48,7 +48,7 @@
             this.btnAct4.Location = new System.Drawing.Point(265, 266);
             this.btnAct4.Name = "btnAct4";
             this.btnAct4.Size = new System.Drawing.Size(116, 44);
-            this.btnAct4.TabIndex = 28;
+            this.btnAct4.TabIndex = 4;
             this.btnAct4.Text = "Actividad 4";
             this.btnAct4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAct4.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@
             this.btnAct3.Location = new System.Drawing.Point(89, 266);
             this.btnAct3.Name = "btnAct3";
             this.btnAct3.Size = new System.Drawing.Size(116, 44);
-            this.btnAct3.TabIndex = 27;
+            this.btnAct3.TabIndex = 3;
             this.btnAct3.Text = "Actividad 3";
             this.btnAct3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAct3.UseVisualStyleBackColor = true;
@@ -71,12 +71,11 @@
             // btnAct2
             // 
             this.btnAct2.AutoSize = true;
-            this.btnAct2.Enabled = false;
             this.btnAct2.ForeColor = System.Drawing.Color.Black;
             this.btnAct2.Location = new System.Drawing.Point(265, 170);
             this.btnAct2.Name = "btnAct2";
             this.btnAct2.Size = new System.Drawing.Size(116, 44);
-            this.btnAct2.TabIndex = 26;
+            this.btnAct2.TabIndex = 2;
             this.btnAct2.Text = "Actividad 2";
             this.btnAct2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAct2.UseVisualStyleBackColor = true;
@@ -89,7 +88,7 @@
             this.btnAct1.Location = new System.Drawing.Point(89, 170);
             this.btnAct1.Name = "btnAct1";
             this.btnAct1.Size = new System.Drawing.Size(116, 44);
-            this.btnAct1.TabIndex = 25;
+            this.btnAct1.TabIndex = 1;
             this.btnAct1.Text = "Actividad 1";
             this.btnAct1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAct1.UseVisualStyleBackColor = true;
@@ -103,7 +102,7 @@
             this.btnVolver.Location = new System.Drawing.Point(667, 337);
             this.btnVolver.Name = "btnVolver";
             this.btnVolver.Size = new System.Drawing.Size(116, 44);
-            this.btnVolver.TabIndex = 24;
+            this.btnVolver.TabIndex = 5;
             this.btnVolver.Text = "Volver";
             this.btnVolver.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVolver.UseVisualStyleBackColor = true;
