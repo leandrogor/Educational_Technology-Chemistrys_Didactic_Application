@@ -57,7 +57,6 @@
             // btnAct3
             // 
             this.btnAct3.AutoSize = true;
-            this.btnAct3.Enabled = false;
             this.btnAct3.ForeColor = System.Drawing.Color.Black;
             this.btnAct3.Location = new System.Drawing.Point(89, 266);
             this.btnAct3.Name = "btnAct3";
